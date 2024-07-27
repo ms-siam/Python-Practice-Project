@@ -7,5 +7,8 @@ def collatz(number):
          else:
             number = number * 3 + 1
             print(number)
-        
-collatz(number = int(input("Enter a Number:")))
+try:
+      collatz(number = int(input("Enter a Number:")))
+except ValueError:
+    print("Value Error :Invalid Input Type. this is not a number")     
+  

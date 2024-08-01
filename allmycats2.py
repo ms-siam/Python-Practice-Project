@@ -10,5 +10,5 @@ while True:
         break
     catNames = catNames + [name]
 print("The cat names are: ")
-for name in catNames:
-    print(" " + name)  # Write your code here :-)
+for x in range(len(catNames)):
+    print(catNames[x], end='\n')  # Write your code here :-)

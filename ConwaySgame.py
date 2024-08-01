@@ -1,7 +1,7 @@
 #Conway's game of life
 import random, time, copy
-Width = 6
-Height = 2
+Width = 60
+Height = 20
 
 #create a lift of lists for the cells
 nextCells = []

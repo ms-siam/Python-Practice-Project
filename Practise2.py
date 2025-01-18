@@ -1,14 +1,22 @@
-'''Name = input('Enter your name:')
-Age = int(input('Enter your age: '))
-NeedYears = 100 - Age
-print(f"Hello {Name}, You will turn 100 years old in {NeedYears} years")
+import pprint
+spam = {'mail': 'gmail', 'fname': 'siam', 'lname': 'sarker'}
+for v in spam.values():
+    print(v)
+for k in spam.keys():
+    print(k)
+for K,V in spam.items():
+    print('Keys: ' + K + ' Values: ' + V)
+if 'gmail' in spam.values():
+    print('Yes')
+print('My firstname is ' + spam.get('fname', 'Mobarok') + ' and lastname is ' + spam.get('lname', 'Sarker'))
 
-text = input('enter a text')
-char = input('enter a charecter from the text to count')
-count = text.count(char)
-print(f"The character {char} appears {count} time(s) in the text")'''
+SPAM = "Mymns,ada name is tiam"
+count = {}
 
+for letter in SPAM:
+    count.setdefault(letter, 0)
+    count[letter] += 1
 
-
-
+print(pprint.pformat(count))
+pprint.pprint(count)
 

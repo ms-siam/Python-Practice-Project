@@ -1,3 +1,0 @@
-import pyperclip
-
-pyperclip.paste()

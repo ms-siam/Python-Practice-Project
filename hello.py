@@ -1,4 +1,3 @@
-# Write your code here :-)
 print('Hello, World!')
 print('What is your name?')
 print()

@@ -12,6 +12,3 @@ while True:
 print("The cat names are: ")
 for x in range(len(catNames)):
     print(catNames[x])  # Write your code here :-)
-
-#for name in catNames:
- #   print( name)

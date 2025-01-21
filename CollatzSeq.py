@@ -10,5 +10,5 @@ def collatz(number):
 try:
       collatz(number = int(input("Enter a Number:")))
 except ValueError:
-    print("Value Error :Invalid Input Type. this is not a number")     
+    print("Value Error :Invalid Input Type. this is not a number")  
   

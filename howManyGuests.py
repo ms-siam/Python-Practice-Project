@@ -1,9 +1,9 @@
 name = ''
 while not name:
-    print('Enter Your name:')
+    print('Enter Your name: ')
     name = input()
 print('How many guests will you have?')
 numOfGuests = int(input())
 if numOfGuests:
         print('Be sure to have enough room for all your guests.')
-print('Done')
+print('Done.')

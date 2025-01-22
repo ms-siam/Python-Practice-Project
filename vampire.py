@@ -12,13 +12,13 @@ elif age > '100':
     print(' u r not alice, grannie')
 
 #This is another code for same result.
-##name = 'carol'
-#age = 3000
-#if name == 'Alice':
-    #print('Hi, Alice')
-#elif age < 12:
-    #print('You are not alice, kiddo')
-#elif age > 2000:
-    #print('Unlike u , alice is not an undead, immortal vampire')
-#elif age > 100:
-    #print(' u r not alice, grannie')
+name = 'carol'
+age = 3000
+if name == 'Alice':
+    print('Hi, Alice')
+elif age < 12:
+    print('You are not alice, kiddo')
+elif age > 2000:
+    print('Unlike u , alice is not an undead, immortal vampire')
+elif age > 100:
+    print(' u r not alice, grannie')

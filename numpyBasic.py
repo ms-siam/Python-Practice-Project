@@ -23,3 +23,21 @@ print('Last element from 2nd dim: ', arr3[1, -1])
 arr6 = np.array(['apple', 'banana', 'cherry'])
 
 print(arr6.dtype)
+
+arr = np.array([1,2,3,4,5])  
+
+x = arr.copy()                  #coping and assigning the array to x
+arr[0] =42                     #changing an element of arr
+print(arr)                      #Output:[42  2  3  4  5]
+print(x)                        #Output:[1 2 3 4 5]
+
+y = arr.view()                  #viewing and storing the array to y
+arr[0] = 42                     #changing an element of arr
+print(arr)                      #Output:[42  2  3  4  5]
+print(y)                        #Output:[42  2  3  4  5]
+
+z = arr.view()  
+z[0] = 31  
+  
+print(arr)                     #Output:[31  2  3  4  5]
+print(z)                       #Output:[31  2  3  4  5]

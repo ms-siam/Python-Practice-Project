@@ -8,8 +8,8 @@ for quesNo in range(numOfQues):
     num1 = random.randint(0,9)
     num2 = random.randint(0,9)
     mulNum = num1 * num2
-    
-    prompt = f'#{quesNo}: {num1} x {num2} = '
+    quesSerial = quesNo + 1
+    prompt = f'#{quesSerial}: {num1} x {num2} = '
     try:
         pyip.inputStr(prompt, allowRegexes=[f'^{mulNum}$'], blockRegexes=[('.*', 'Incorrect!')], timeout=8,limit=3)
     except pyip.TimeoutException:
@@ -18,6 +18,6 @@ for quesNo in range(numOfQues):
         print('Out of tries!')
     else:
         print('Correct!')
-        correctAns=+1
+        correctAns =+ 1
     time.sleep(1)
 print(f'Score: {correctAns}/{numOfQues}')

@@ -18,6 +18,6 @@ for quesNo in range(numOfQues):
         print('Out of tries!')
     else:
         print('Correct!')
-        correctAns =+ 1
+        correctAns += 1
     time.sleep(1)
 print(f'Score: {correctAns}/{numOfQues}')

@@ -17,4 +17,5 @@ import os
 print(Path.cwd())
 os.chdir('C:\\Windows')
 print(Path.cwd())
-
+print(Path.home())
+os.makedirs('C:\\She\\TT')

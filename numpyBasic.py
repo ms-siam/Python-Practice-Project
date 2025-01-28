@@ -141,3 +141,12 @@ arrNe2 = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 
 for idx, x in np.ndenumerate(arrNe2):
   print(idx, x)
+  
+  
+arr1j = np.array([1, 2, 3])
+
+arr2j = np.array([4, 5, 6])
+
+arrj = np.concatenate((arr1j, arr2j))
+
+print(arrj)

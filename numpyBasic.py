@@ -265,3 +265,7 @@ print(np.sort(arrSort))
 arrSs = np.array(['banana', 'cherry', 'apple'])
 
 print(np.sort(arrSs))
+
+arrSb = np.array([True, False, True])
+
+print(np.sort(arrSb))

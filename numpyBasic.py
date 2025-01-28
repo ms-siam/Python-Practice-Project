@@ -119,6 +119,6 @@ for x in arrIe3:
 arr3ni = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 
 for x in np.nditer(arr3ni):
-  print(x)
+  print(x, end=' ')
   
 

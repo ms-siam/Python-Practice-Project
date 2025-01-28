@@ -301,3 +301,12 @@ newarrcfa = arrcfa[filter_arrcfa]
 
 print(filter_arrcfa)
 print(newarrcfa)
+
+arrfcap = np.array([41, 42, 43, 44])
+
+filter_arrfcap = arrfcap > 42
+
+newarrfcp = arr[filter_arrfcp]
+
+print(filter_arrfcp)
+print(newarr)

@@ -61,3 +61,10 @@ arrRs3 = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
 newarr3 = arrRs3.reshape(2, 3, 2)
 
 print(newarr3)
+
+
+#Check if the returned array is a copy or a view
+
+arrC = np.array([1, 2,3,4,5,6,7,8])  
+  
+print(arrC.reshape(2, 4).base) 

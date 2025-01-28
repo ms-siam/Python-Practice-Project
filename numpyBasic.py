@@ -260,3 +260,8 @@ print(xMss)
 arrSort = np.array([3, 2, 0, 1])
 
 print(np.sort(arrSort))
+
+#sort arrays of strings, or any other data type:
+arrSs = np.array(['banana', 'cherry', 'apple'])
+
+print(np.sort(arrSs))

@@ -75,3 +75,10 @@ arrUd = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 newarrUd = arrUd.reshape(2, 2, -1)
 
 print(newarrUd)
+
+#Flattening the arrays
+arrF = np.array([[1, 2, 3], [4, 5, 6]])
+
+newarrF = arrF.reshape(-1)
+
+print(newarrF)

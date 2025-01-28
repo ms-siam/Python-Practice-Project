@@ -183,3 +183,9 @@ arrSp = np.array([1, 2, 3, 4, 5, 6])
 newarrSp = np.array_split(arrSp, 3)
 
 print(newarrSp)
+
+arrSp1 = np.array([1, 2, 3, 4, 5, 6])
+
+newarrSp1 = np.array_split(arrSp1, 4)
+
+print(newarrSp1)

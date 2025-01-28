@@ -41,3 +41,7 @@ z[0] = 31
   
 print(arr)                     #Output:[31  2  3  4  5]
 print(z)                       #Output:[31  2  3  4  5]
+
+arrs = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+
+print(arrs.shape)

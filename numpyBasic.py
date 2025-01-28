@@ -150,3 +150,11 @@ arr2j = np.array([4, 5, 6])
 arrj = np.concatenate((arr1j, arr2j))
 
 print(arrj)
+
+arr1jr = np.array([[1, 2], [3, 4]])
+
+arr2jr = np.array([[5, 6], [7, 8]])
+
+arrjr = np.concatenate((arr1jr, arr2jr), axis=1)
+
+print(arrjr)

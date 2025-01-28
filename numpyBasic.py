@@ -170,6 +170,7 @@ arrh = np.hstack((arr1s, arr2s))#np.hstack stacks arrays horizontally (into a si
 
 print(arrh)
 
-arrv = np.vstack((arr1s, arr2s))
+arrv = np.vstack((arr1s, arr2s))#np.vstack stacks arrays vertically (row-wise).
 
 print(arrv)
+

@@ -121,4 +121,9 @@ arr3ni = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 for x in np.nditer(arr3ni):
   print(x, end=' ')
   
+  
+arrnb = np.array([1, 2, 3])
+
+for x in np.nditer(arrnb, flags=['buffered'], op_dtypes=['S']):
+  print(x)
 

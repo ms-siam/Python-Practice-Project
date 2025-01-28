@@ -282,3 +282,22 @@ xfa = [True, False, True, False]
 newarrfa = arrfa[xfa]
 
 print(newarrfa)
+
+#Create a filter array that will return only values higher than 42
+arrcfa = np.array([41, 42, 43, 44])
+
+# Create an empty list
+filter_arrcfa = []
+
+# go through each element in arr
+for element in arrcfa:
+  # if the element is higher than 42, set the value to True, otherwise False:
+  if element > 42:
+    filter_arrcfa.append(True)
+  else:
+    filter_arrcfa.append(False)
+
+newarrcfa = arrcfa[filter_arrcfa]
+
+print(filter_arrcfa)
+print(newarrcfa)

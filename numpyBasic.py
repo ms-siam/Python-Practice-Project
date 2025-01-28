@@ -169,3 +169,7 @@ print(arrs)
 arrh = np.hstack((arr1s, arr2s))#np.hstack stacks arrays horizontally (into a single 1D array).
 
 print(arrh)
+
+arrv = np.vstack((arr1s, arr2s))
+
+print(arrv)

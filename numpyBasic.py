@@ -273,3 +273,12 @@ print(np.sort(arrSb))
 arrs2d = np.array([[3, 2, 4], [5, 0, 1]])
 
 print(np.sort(arrs2d))
+
+#Create an array from the elements on index 0 and 2:
+arrfa = np.array([41, 42, 43, 44])
+
+xfa = [True, False, True, False]
+
+newarrfa = arrfa[xfa]
+
+print(newarrfa)

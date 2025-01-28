@@ -240,3 +240,10 @@ arrwe = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 xwe = np.where(arrwe%2 == 0)
 
 print(xwe)
+
+#Find the indexes where the value 7 should be inserted:
+arrss7 = np.array([6, 7, 8, 9])
+
+xss7 = np.searchsorted(arrss7, 7)
+
+print(xss7)

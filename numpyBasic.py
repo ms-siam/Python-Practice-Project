@@ -306,7 +306,7 @@ arrfcap = np.array([41, 42, 43, 44])
 
 filter_arrfcap = arrfcap > 42
 
-newarrfcp = arr[filter_arrfcp]
+newarrfcap = arr[filter_arrfcap]
 
-print(filter_arrfcp)
-print(newarr)
+print(filter_arrfcap)
+print(newarrfcap)

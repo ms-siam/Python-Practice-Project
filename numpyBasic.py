@@ -232,3 +232,11 @@ arrw = np.array([1, 2, 3, 4, 5, 4, 4])
 xw = np.where(arrw == 4)
 
 print(xw)
+
+#Find the indexes where the values are even:
+
+arrwe = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+
+xwe = np.where(arrwe%2 == 0)
+
+print(xwe)

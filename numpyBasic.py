@@ -174,3 +174,6 @@ arrv = np.vstack((arr1s, arr2s))#np.vstack stacks arrays vertically (row-wise).
 
 print(arrv)
 
+arrhd = np.dstack((arr1s, arr2s))
+
+print(arrhd)

@@ -247,3 +247,11 @@ arrss7 = np.array([6, 7, 8, 9])
 xss7 = np.searchsorted(arrss7, 7)
 
 print(xss7)
+
+#Find the indexes where the values 2, 4, and 6 should be inserted
+
+arrMss = np.array([1, 3, 5, 7])
+
+xMss = np.searchsorted(arrMss, [2, 4, 6])
+
+print(xMss)

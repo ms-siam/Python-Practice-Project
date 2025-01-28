@@ -99,3 +99,10 @@ arrIII = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 
 for x in arrIII:
   print(x)
+  
+  
+arrIe2 = np.array([[1, 2, 3], [4, 5, 6]])
+
+for x in arrIe2:
+  for y in x:
+    print(y)

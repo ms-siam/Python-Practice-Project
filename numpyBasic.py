@@ -206,3 +206,9 @@ arrSp3 = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
 newarrSp3 = np.array_split(arrSp3, 3)
 
 print(newarrSp3)
+
+arrSp4 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15], [16, 17, 18]])
+
+newarrSp4 = np.array_split(arrSp4, 3)
+
+print(newarrSp4)

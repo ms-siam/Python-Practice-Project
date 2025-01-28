@@ -45,3 +45,8 @@ print(z)                       #Output:[31  2  3  4  5]
 arrs = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 
 print(arrs.shape)
+
+arrs5 = np.array([1, 2, 3, 4], ndmin=5)
+
+print(arrs5)
+print('shape of array :', arrs5.shape)

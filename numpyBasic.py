@@ -166,3 +166,6 @@ arr2s = np.array([4, 5, 6])
 arrs = np.stack((arr1s, arr2s), axis=1)
 
 print(arrs)
+arrh = np.hstack((arr1s, arr2s))#np.hstack stacks arrays horizontally (into a single 1D array).
+
+print(arrh)

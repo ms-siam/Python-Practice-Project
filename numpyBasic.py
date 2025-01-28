@@ -82,3 +82,9 @@ arrF = np.array([[1, 2, 3], [4, 5, 6]])
 newarrF = arrF.reshape(-1)
 
 print(newarrF)
+
+#iterating the arrays
+
+arrI = np.array([1, 2, 3])  
+for x in arrI:
+    print(x, end = ' ' )

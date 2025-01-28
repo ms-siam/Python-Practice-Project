@@ -87,4 +87,9 @@ print(newarrF)
 
 arrI = np.array([1, 2, 3])  
 for x in arrI:
-    print(x, end = ' ' )
+    print(x, end = ', ' )
+    
+arrII = np.array([[1, 2, 3], [4, 5, 6]])
+
+for x in arrII:
+  print(x, end = ' ')

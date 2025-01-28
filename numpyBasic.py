@@ -68,3 +68,10 @@ print(newarr3)
 arrC = np.array([1, 2,3,4,5,6,7,8])  
   
 print(arrC.reshape(2, 4).base) 
+
+#Convert 1D array with 8 elements to 3D array with 2x2 elements:
+arrUd = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+
+newarrUd = arrUd.reshape(2, 2, -1)
+
+print(newarrUd)

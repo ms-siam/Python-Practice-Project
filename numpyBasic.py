@@ -225,3 +225,10 @@ arrhsp = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15], 
 newarrhsp = np.hsplit(arrhsp, 3)
 
 print(newarrhsp)
+
+#Find the indexes where the value is 4:
+arrw = np.array([1, 2, 3, 4, 5, 4, 4])
+
+xw = np.where(arrw == 4)
+
+print(xw)

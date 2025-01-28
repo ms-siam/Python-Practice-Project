@@ -50,3 +50,8 @@ arrs5 = np.array([1, 2, 3, 4], ndmin=5)
 
 print(arrs5)
 print('shape of array :', arrs5.shape)
+
+#Reshaping arrays
+arrRs = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+newarr = arrRs.reshape(4, 3)
+print(newarr)

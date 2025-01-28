@@ -115,8 +115,10 @@ for x in arrIe3:
     for z in y:
       print(z)
       
-      
+#Iterate through the following 3-D array:      
 arr3ni = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 
 for x in np.nditer(arr3ni):
   print(x)
+  
+

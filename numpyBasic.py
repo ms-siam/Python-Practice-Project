@@ -219,3 +219,9 @@ arrSx1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15], 
 newarrSx1 = np.array_split(arrSx1, 3, axis=1)
 
 print(newarrSx1, end='\n')
+
+arrhsp = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15], [16, 17, 18]])
+
+newarrhsp = np.hsplit(arrhsp, 3)
+
+print(newarrhsp)

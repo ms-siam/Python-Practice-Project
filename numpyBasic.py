@@ -269,3 +269,7 @@ print(np.sort(arrSs))
 arrSb = np.array([True, False, True])
 
 print(np.sort(arrSb))
+#sorting a 2-D array
+arrs2d = np.array([[3, 2, 4], [5, 0, 1]])
+
+print(np.sort(arrs2d))

@@ -136,3 +136,8 @@ arrNe = np.array([1, 2, 3])
 
 for idx, x in np.ndenumerate(arrNe):
   print(idx, x)
+  
+arrNe2 = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+
+for idx, x in np.ndenumerate(arrNe2):
+  print(idx, x)

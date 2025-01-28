@@ -198,3 +198,11 @@ newarrSp2 = np.array_split(arrSp2, 3)
 print(newarrSp2[0])
 print(newarrSp2[1])
 print(newarrSp2[2])
+
+#Split the 2-D array into three 2-D arrays.
+
+arrSp3 = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
+
+newarrSp3 = np.array_split(arrSp3, 3)
+
+print(newarrSp3)

@@ -189,3 +189,12 @@ arrSp1 = np.array([1, 2, 3, 4, 5, 6])
 newarrSp1 = np.array_split(arrSp1, 4)
 
 print(newarrSp1)
+
+#Access the splitted arrays
+arrSp2 = np.array([1, 2, 3, 4, 5, 6])
+
+newarrSp2 = np.array_split(arrSp2, 3)
+
+print(newarrSp2[0])
+print(newarrSp2[1])
+print(newarrSp2[2])

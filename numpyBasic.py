@@ -177,3 +177,9 @@ print(arrv)
 arrhd = np.dstack((arr1s, arr2s))
 
 print(arrhd)
+
+arrSp = np.array([1, 2, 3, 4, 5, 6])
+
+newarrSp = np.array_split(arrSp, 3)
+
+print(newarrSp)

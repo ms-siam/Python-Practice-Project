@@ -212,3 +212,10 @@ arrSp4 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15], 
 newarrSp4 = np.array_split(arrSp4, 3)
 
 print(newarrSp4)
+
+#Split the 2-D array into three 2-D arrays along columns
+arrSx1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15], [16, 17, 18]])
+
+newarrSx1 = np.array_split(arrSx1, 3, axis=1)
+
+print(newarrSx1, end='\n')

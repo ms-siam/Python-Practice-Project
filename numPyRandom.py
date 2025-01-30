@@ -33,3 +33,8 @@ print(xfa2)
 xrva = random.choice([3, 5, 7, 9])
 
 print(xrva)
+
+#Generate a 2-D array that consists of the values in the array parameter (3, 5, 7, and 9):
+xrva2 = random.choice([3, 5, 7, 9], size=(3, 5))
+
+print(xrva2)

@@ -28,3 +28,8 @@ print(xfa)
 #Generate a 2-D array with 3 rows, each row containing 5 random numbers:
 xfa2 = random.rand(3, 5)
 print(xfa2)
+
+#Return one of the values in an array:
+xrva = random.choice([3, 5, 7, 9])
+
+print(xrva)

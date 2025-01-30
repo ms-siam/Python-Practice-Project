@@ -4,3 +4,8 @@ from numpy import random
 x = random.randint(100)
 
 print(x)
+
+#Generate Random Float
+xf = random.rand()
+
+print(xf)

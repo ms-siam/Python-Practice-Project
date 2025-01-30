@@ -14,3 +14,8 @@ print(xf)
 xia=random.randint(100, size=(5))
 
 print(xia)
+
+#Generate a 2-D array with 3 rows, each row containing 5 random integers from 0 to 100:
+xia2 = random.randint(100, size=(3, 5))
+
+print(xia2)

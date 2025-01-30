@@ -19,3 +19,8 @@ print(xia)
 xia2 = random.randint(100, size=(3, 5))
 
 print(xia2)
+
+#Generate a 1-D array containing 5 random floats:
+xfa = random.rand(5)
+
+print(xfa)

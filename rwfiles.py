@@ -39,4 +39,8 @@ print(p.stem)
 print(p.suffix)
 print(p.drive)
 
+print(Path.cwd())
+print(Path.cwd().parents[0])
+print(Path.cwd().parents[1])
+
     

@@ -67,7 +67,7 @@ print(files)
 log_files = glob.glob("log_?.txt")  # Matches log_1.txt, log_2.txt, etc.
 print(log_files)
 
-winDir = Path('C:/Windows')
+'''winDir = Path('C:/Windows')
 notExistDir = Path('C:/This/Folder/Does/Not/Exist')
 calcFile = Path('C:/Windows/System32/calc.exe')
 print(winDir.exists())       # True
@@ -102,7 +102,7 @@ baconFile.close()
 baconFile = open('bacon.txt')
 content = baconFile.read()
 baconFile.close()
-print(content)
+print(content)'''
 
 
 import shelve

@@ -103,3 +103,14 @@ baconFile = open('bacon.txt')
 content = baconFile.read()
 baconFile.close()
 print(content)
+
+
+import shelve
+
+# Open a shelve file (creates one if it doesn’t exist)
+with shelve.open("mydata") as db:
+    db["name"] = "Mobarok Sarker"  # String
+    db["age"] = 20  # Integer
+    db["hobbies"] = ["Photography", "Programming"]  # List
+
+print("Data stored successfully!")

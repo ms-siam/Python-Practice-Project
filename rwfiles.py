@@ -122,3 +122,8 @@ with shelve.open("mydata") as db:
     print("Age:", db["age"])
     print("Hobbies:", db["hobbies"])
 
+with shelve.open("mydata", writeback=True) as db:
+    db["age"] = 21  # Modify existing data
+    db["hobbies"].append("Gaming")  # Modify list inside shelve
+
+print("Data updated!")

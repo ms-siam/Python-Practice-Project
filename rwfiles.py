@@ -89,3 +89,6 @@ helloFile = open(Path.home() / 'hello.txt')  # It will open the file in read mod
                                               
 helloContent = helloFile.read()
 print(helloContent)
+
+sonnetFile = open(Path.home() / 'sonnet29.txt')
+print(sonnetFile.readlines())

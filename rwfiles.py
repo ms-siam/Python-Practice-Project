@@ -132,4 +132,7 @@ with shelve.open("mydata") as db:
     del db["age"]
     print("Age deleted!")
 
+with shelve.open("mydata") as db:
+    if "name" in db:
+        print("Key found!")
 

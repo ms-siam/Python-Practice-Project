@@ -1,5 +1,5 @@
 # Reading and Writing Files
-from pathlib import Path
+'''from pathlib import Path
 print(Path('spam', 'bacon', 'eggs'))
 print(str(Path('spam', 'bacon', 'eggs')))
 
@@ -65,7 +65,7 @@ print(files)
 # Find files with a specific pattern
 
 log_files = glob.glob("log_?.txt")  # Matches log_1.txt, log_2.txt, etc.
-print(log_files)
+print(log_files)'''
 
 '''winDir = Path('C:/Windows')
 notExistDir = Path('C:/This/Folder/Does/Not/Exist')
@@ -105,7 +105,7 @@ baconFile.close()
 print(content)'''
 
 
-import shelve
+'''import shelve
 
 # Open a shelve file (creates one if it doesn’t exist)
 with shelve.open("mydata") as db:
@@ -154,4 +154,4 @@ db["name"] = "Mobarok Sarker"
 db["age"] = 20
 
 # Close the file manually
-db.close()
+db.close()'''

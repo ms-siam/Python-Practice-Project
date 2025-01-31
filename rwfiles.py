@@ -128,13 +128,6 @@ with shelve.open("mydata", writeback=True) as db:
 
 print("Data updated!")
 
-with shelve.open("mydata") as db:
-    del db["age"]
-    print("Age deleted!")
-
-
-
-
 
 with shelve.open("mydata") as db:
     print(list(db.keys()))  # Output: ['name', 'age', 'hobbies']
@@ -145,3 +138,7 @@ with shelve.open("mydata") as db:
 with shelve.open("mydata") as db:
     if "name" in db:
         print("Key found!")
+
+with shelve.open("mydata") as db:
+    del db["age"]
+    print("Age deleted!")

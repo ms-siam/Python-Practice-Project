@@ -155,3 +155,11 @@ db["age"] = 20
 
 # Close the file manually
 db.close()'''
+
+
+import pprint
+
+data = {"name": "Mobarok", "age": 20, "hobbies": ["Photography", "Coding"]}
+
+formatted_data = pprint.pformat(data)  # Converts the dictionary into a formatted string
+print(formatted_data)  # See the output

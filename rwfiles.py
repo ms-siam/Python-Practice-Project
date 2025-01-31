@@ -114,3 +114,11 @@ with shelve.open("mydata") as db:
     db["hobbies"] = ["Photography", "Programming"]  # List
 
 print("Data stored successfully!")
+
+
+# Open the shelve file in read mode
+with shelve.open("mydata") as db:
+    print("Name:", db["name"])
+    print("Age:", db["age"])
+    print("Hobbies:", db["hobbies"])
+

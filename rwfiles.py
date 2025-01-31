@@ -76,3 +76,9 @@ print(calcFile.exists())     # True
 print(calcFile.is_file())    # True
 print(calcFile.is_dir())     # False
 
+from pathlib import Path
+p = Path('spam.txt')
+print(p.read_text())
+print(p.write_text('Hello, world!'))
+print(p.read_text())
+

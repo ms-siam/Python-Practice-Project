@@ -20,9 +20,17 @@ print(homeFolder / subFolder / 'eggs.txt')
 
 import os
 print(Path.cwd())
-os.chdir('C:\\Windows\\System32')
+#os.chdir('C:\\Windows\\System32')
 print(Path.cwd())
 
 print(Path.home())
+
+
+import os
+print(os.path.abspath('.'))
+print(os.path.isabs('.'))
+print(os.path.isabs(os.path.abspath('.')))
+print(os.path.relpath('C:\\Windows', 'C:\\'))
+print(os.path.relpath('C:\\Windows', 'C:\\spam\\eggs'))
 
     

@@ -163,3 +163,14 @@ data = {"name": "Mobarok", "age": 20, "hobbies": ["Photography", "Coding"]}
 
 formatted_data = pprint.pformat(data)  # Converts the dictionary into a formatted string
 print(formatted_data)  # See the output
+
+import pprint
+
+data = {"name": "Mobarok", "age": 20, "hobbies": ["Photography", "Coding"]}
+
+# Convert dictionary to a formatted string
+formatted_data = pprint.pformat(data)
+
+# Save it to a Python file
+with open("mydata.py", "w") as file:
+    file.write(f"data = {formatted_data}\n")  # Save as a Python variable

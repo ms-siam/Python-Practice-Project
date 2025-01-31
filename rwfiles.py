@@ -174,3 +174,6 @@ formatted_data = pprint.pformat(data)
 # Save it to a Python file
 with open("mydata.py", "w") as file:
     file.write(f"data = {formatted_data}\n")  # Save as a Python variable
+import mydata
+
+print(mydata.data)  # Access the stored dictionary

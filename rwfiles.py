@@ -136,8 +136,10 @@ with shelve.open("mydata") as db:
     if "name" in db:
         print("Key found!")
 
-with shelve.open("mydata") as db:
-    print(list(db.values()))  # Output: ['Mobarok Sarker', 21, ['Photography', 'Programming', 'Gaming']]
+
 
 with shelve.open("mydata") as db:
     print(list(db.keys()))  # Output: ['name', 'age', 'hobbies']
+    
+with shelve.open("mydata") as db:
+    print(list(db.values()))  # Output: ['Mobarok Sarker', 21, ['Photography', 'Programming', 'Gaming']]

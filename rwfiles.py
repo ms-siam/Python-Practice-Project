@@ -61,3 +61,8 @@ import glob
 
 files = glob.glob("*.txt")  # Find all .txt files in the current directory
 print(files)
+
+# Find files with a specific pattern
+
+log_files = glob.glob("log_?.txt")  # Matches log_1.txt, log_2.txt, etc.
+print(log_files)

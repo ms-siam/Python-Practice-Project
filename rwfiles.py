@@ -142,3 +142,16 @@ with shelve.open("mydata") as db:
 with shelve.open("mydata") as db:
     del db["age"]
     print("Age deleted!")
+    
+    
+import shelve
+
+# Open shelve file
+db = shelve.open("myData")
+
+# Store data
+db["name"] = "Mobarok Sarker"
+db["age"] = 20
+
+# Close the file manually
+db.close()

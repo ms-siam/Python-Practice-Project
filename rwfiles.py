@@ -127,3 +127,9 @@ with shelve.open("mydata", writeback=True) as db:
     db["hobbies"].append("Gaming")  # Modify list inside shelve
 
 print("Data updated!")
+
+with shelve.open("mydata") as db:
+    del db["age"]
+    print("Age deleted!")
+
+

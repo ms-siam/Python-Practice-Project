@@ -30,7 +30,13 @@ import os
 print(os.path.abspath('.'))
 print(os.path.isabs('.'))
 print(os.path.isabs(os.path.abspath('.')))
-print(os.path.relpath('C:\\Windows', 'C:\\'))
-print(os.path.relpath('C:\\Windows', 'C:\\spam\\eggs'))
+
+p = Path('C:/User/Mobarok/spam.txt')
+print(p.anchor)
+print(p.parent)
+print(p.name)
+print(p.stem)
+print(p.suffix)
+print(p.drive)
 
     

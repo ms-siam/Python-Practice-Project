@@ -79,6 +79,13 @@ print(calcFile.is_dir())     # False
 from pathlib import Path
 p = Path('spam.txt')
 
-print(p.write_text('Hello, world!'))
+print(p.write_text('Hello, world?'))
 print(p.read_text())
 
+#First we have created a text file in our home folder outside of coding
+
+helloFile = open(Path.home() / 'hello.txt')  # It will open the file in read mode 
+                                              #When a file is opend in read mode, you                                                  can't write or modify it. However, if we                                                pass a string value 'r'  as a second                                                    argument to open()
+                                              
+helloContent = helloFile.read()
+print(helloContent)

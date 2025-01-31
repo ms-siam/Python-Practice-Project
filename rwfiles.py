@@ -66,3 +66,13 @@ print(files)
 
 log_files = glob.glob("log_?.txt")  # Matches log_1.txt, log_2.txt, etc.
 print(log_files)
+
+winDir = Path('C:/Windows')
+notExistDir = Path('C:/This/Folder/Does/Not/Exist')
+calcFile = Path('C:/Windows/System32/calc.exe')
+print(winDir.exists())       # True
+print(notExistDir.exists())  # False
+print(calcFile.exists())     # True
+print(calcFile.is_file())    # True
+print(calcFile.is_dir())     # False
+

@@ -132,9 +132,7 @@ with shelve.open("mydata") as db:
     del db["age"]
     print("Age deleted!")
 
-with shelve.open("mydata") as db:
-    if "name" in db:
-        print("Key found!")
+
 
 
 
@@ -143,3 +141,7 @@ with shelve.open("mydata") as db:
     
 with shelve.open("mydata") as db:
     print(list(db.values()))  # Output: ['Mobarok Sarker', 21, ['Photography', 'Programming', 'Gaming']]
+
+with shelve.open("mydata") as db:
+    if "name" in db:
+        print("Key found!")

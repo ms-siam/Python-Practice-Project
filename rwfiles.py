@@ -56,3 +56,8 @@ totalSize = 0
 for filename in os.listdir('C:\\Windows\\System32'):
     totalSize = totalSize + os.path.getsize(os.path.join('C:\\Windows\\System32', filename))
 print(totalSize)
+
+import glob
+
+files = glob.glob("*.txt")  # Find all .txt files in the current directory
+print(files)

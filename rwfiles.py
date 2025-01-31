@@ -157,12 +157,12 @@ db["age"] = 20
 db.close()'''
 
 
-import pprint
+'''import pprint
 
 data = {"name": "Mobarok", "age": 20, "hobbies": ["Photography", "Coding"]}
 
 formatted_data = pprint.pformat(data)  # Converts the dictionary into a formatted string
-print(formatted_data)  # See the output
+print(formatted_data)  # See the output'''
 
 import pprint
 

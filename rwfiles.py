@@ -43,4 +43,8 @@ print(Path.cwd())
 print(Path.cwd().parents[0])
 print(Path.cwd().parents[1])
 
-    
+calcFilePath = 'C:\\Windows\\System32\\calc.exe'
+print(os.path.basename(calcFilePath))
+print(os.path.dirname(calcFilePath))
+print(os.path.split(calcFilePath))
+print(calcFilePath.split(os.sep))

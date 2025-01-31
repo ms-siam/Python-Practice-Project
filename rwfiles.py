@@ -17,4 +17,10 @@ homeFolder = Path('C:/Users/Mobarok')
 subFolder = Path('spam')
 print(homeFolder / subFolder / 'eggs.txt')
 
+
+import os
+print(Path.cwd())
+os.chdir('C:\\Windows\\System32')
+print(Path.cwd())
+
     

@@ -12,4 +12,9 @@ from pathlib import Path
 print(Path('spam') / 'bacon' / 'eggs')
 print(Path('spam') / Path('bacon/eggs'))
 print(Path('spam') / Path('bacon', 'eggs'))
+
+homeFolder = Path('C:/Users/Mobarok')
+subFolder = Path('spam')
+print(homeFolder / subFolder / 'eggs.txt')
+
     

@@ -10,10 +10,10 @@ with open('MadLibs.txt', 'r') as file:
         if word == 'ADJECTIVE':
             adjective = input('Enter an adjective: ')
             words[words.index(word)] = adjective
-        elif word == 'NOUN':
+        if word == 'NOUN':
             noun = input('Enter a noun: ')
             words[words.index(word)] = noun
-        elif word == 'VERB':
+        if word == 'VERB':
             verb = input('Enter a verb: ')
             words[words.index(word)] = verb
     Story = ' '.join(words)

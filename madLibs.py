@@ -2,7 +2,7 @@
 import re
 
 with open('MadLibs.txt', 'w') as file:
-    file.write('The ADJECTIVE panda walked to the NOUN and then VERB. A nearby NOUN was unaffected by these events.')
+    file.write('The ADJECTIVE panda walked to the NOUN and then VERB . A nearby NOUN was unaffected by these events.')
 with open('MadLibs.txt', 'r') as file:
     file = file.read()
     words = file.split()
@@ -13,7 +13,7 @@ with open('MadLibs.txt', 'r') as file:
         if word == 'NOUN':
             noun = input('Enter a noun: ')
             words[words.index(word)] = noun
-        if word == 'VERB.':
+        if word == 'VERB':
             verb = input('Enter a verb: ')
             words[words.index(word)] = verb
     Story = ' '.join(words)

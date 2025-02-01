@@ -12,7 +12,7 @@ with open('MadLibs.txt', 'r') as file:
             words[words.index(word)] = adjective
         elif word == 'NOUN':
             noun = input('Enter a noun: ')
-            words[word] = noun
+            words[words.index(word)] = noun
         elif word == 'VERB':
             verb = input('Enter a verb: ')
             words[word] = verb

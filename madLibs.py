@@ -12,3 +12,6 @@ for word in words:
     elif word == 'NOUN':
         noun = input('Enter a noun: ')
         words[word] = noun
+    elif word == 'VERB':
+        verb = input('Enter a verb: ')
+        words[word] = verb

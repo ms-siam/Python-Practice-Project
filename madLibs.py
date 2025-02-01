@@ -13,7 +13,7 @@ with open('MadLibs.txt', 'r') as file:
         if word == 'NOUN':
             noun = input('Enter a noun: ')
             words[words.index(word)] = noun
-        if word == 'VERB':
+        if word == 'VERB.':
             verb = input('Enter a verb: ')
             words[words.index(word)] = verb
     Story = ' '.join(words)

@@ -1,12 +1,10 @@
 
-import re
-
 with open('MadLibs.txt', 'w') as file:
     file.write('The ADJECTIVE panda walked to the NOUN and then VERB . A nearby NOUN was unaffected by these events.')
 with open('MadLibs.txt', 'r') as file:
-    file = file.read()
-    print(file)
-    words = file.split()
+    content = file.read()
+    print(content)
+    words = content.split()
     for word in words:
         if word == 'ADJECTIVE':
             adjective = input('Enter an adjective: ')

@@ -9,4 +9,6 @@ for word in words:
     if word == 'ADJECTIVE':
         adjective = input('Enter an adjective: ')
         words[word] = adjective
-    
+    elif word == 'NOUN':
+        noun = input('Enter a noun: ')
+        words[word] = noun

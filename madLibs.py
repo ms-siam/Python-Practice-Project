@@ -5,16 +5,16 @@ with open('MadLibs.txt', 'r') as file:
     content = file.read()
     print(content)
     words = content.split()
-    for word in words:
+    for i, word in enumerate(words):
         if word == 'ADJECTIVE':
             adjective = input('Enter an adjective: ')
-            words[words.index(word)] = adjective
-        if word == 'NOUN':
+            words[i] = adjective
+        elif word == 'NOUN':
             noun = input('Enter a noun: ')
-            words[words.index(word)] = noun
-        if word == 'VERB':
+            words[i] = noun
+        elif word == 'VERB':
             verb = input('Enter a verb: ')
-            words[words.index(word)] = verb
+            words[i] = verb
     Story = ' '.join(words)
     print(Story)
     

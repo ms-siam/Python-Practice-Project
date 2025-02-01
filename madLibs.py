@@ -15,3 +15,5 @@ for word in words:
     elif word == 'VERB':
         verb = input('Enter a verb: ')
         words[word] = verb
+Story = ' '.join(words)
+print(Story)

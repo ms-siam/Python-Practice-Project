@@ -21,4 +21,4 @@ with open('MadLibs.txt', 'r') as file:
     
 with shelve.open('Madlibs_Done.txt', 'w') as newFile:
     story_number = len(newFile) + 1
-    newFile.write(Story)
+    newFile[f"Story_{story_number}"] = Story

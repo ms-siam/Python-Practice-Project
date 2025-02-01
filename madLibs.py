@@ -5,6 +5,7 @@ with open('MadLibs.txt', 'w') as file:
     file.write('The ADJECTIVE panda walked to the NOUN and then VERB . A nearby NOUN was unaffected by these events.')
 with open('MadLibs.txt', 'r') as file:
     file = file.read()
+    print(file)
     words = file.split()
     for word in words:
         if word == 'ADJECTIVE':

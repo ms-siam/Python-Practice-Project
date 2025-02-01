@@ -15,6 +15,6 @@ with open('MadLibs.txt', 'r') as file:
             words[words.index(word)] = noun
         elif word == 'VERB':
             verb = input('Enter a verb: ')
-            words[word] = verb
+            words[words.index(word)] = verb
     Story = ' '.join(words)
     print(Story)

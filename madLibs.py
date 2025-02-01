@@ -17,3 +17,6 @@ with open('MadLibs.txt', 'r') as file:
             words[words.index(word)] = verb
     Story = ' '.join(words)
     print(Story)
+    
+with open('Madlibs_Done.txt', 'w') as newFile:
+    newFile.write(Story)

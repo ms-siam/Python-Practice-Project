@@ -1,7 +1,7 @@
 import shelve
 
 with open('MadLibs.txt', 'w') as file:
-    file.write('The ADJECTIVE panda walked to the NOUN and then VERB . A nearby NOUN was unaffected by these events.')
+    file.write('The ADJECTIVE panda walked to the NOUN and then VERB. A nearby NOUN was unaffected by these events.')
 with open('MadLibs.txt', 'r') as file:
     content = file.read()
     print(content)

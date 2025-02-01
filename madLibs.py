@@ -19,7 +19,7 @@ with open('MadLibs.txt', 'r') as file:
     Story = ' '.join(words)
     print(Story)
     
-with shelve.open('Madlibs_Done.txt', 'w') as newFile:
+with shelve.open('Madlibs_Done', 'c') as newFile:
     story_number = len(newFile) + 1
     newFile[f"Story_{story_number}"] = Story
     

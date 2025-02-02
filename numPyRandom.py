@@ -140,7 +140,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.displot(random.poisson(lam=2, size=1000))
-plt.show()'''
+plt.show()
 
 #Difference between Normal and Poisson Distribution
 from numpy import random
@@ -152,4 +152,6 @@ sns.kdeplot(random.normal(loc=50,scale=7, size=1000), label='normal')
 sns.kdeplot(random.poisson(lam=50, size=1000), label='poisson')
 
 plt.legend()  #It shows the label in plot
-plt.show()
+plt.show()'''
+
+# Difference between Binomial and Poisson Distribution

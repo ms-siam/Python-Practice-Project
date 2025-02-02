@@ -62,3 +62,5 @@ print(random.permutation(arrp))
 print(arrp)
 
 #seaborn module
+import matplotlib.pyplot as plt
+import seaborn as sns

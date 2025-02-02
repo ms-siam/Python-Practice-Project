@@ -71,7 +71,7 @@ plt.show()
 
 #Plotting a distplot without the histogram
 sns.distplot([0, 1, 2, 3, 4, 5], hist=False)
-plt.show()'''
+plt.show()
 
 #Generate a random normal distribution of size 2x3:
 
@@ -95,7 +95,7 @@ import seaborn as sns
 
 sns.distplot(random.normal(size = 1000), hist = False)
 
-plt.show()
+plt.show()'''
 
 #Binomial Distribution
 # Given 10 trials for coin toss generate 10 data points:

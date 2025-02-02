@@ -85,4 +85,4 @@ print(x)
 from numpy import random
 
 xwls = random.normal(loc= 1, scale= 2, size= (2,3))
-print(x)
+print(xwls)

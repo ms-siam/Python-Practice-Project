@@ -179,4 +179,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.displot(random.uniform(low=3, high=5, size = 1000))
+sns.displot(random.uniform(size = 1000))
 plt.show()

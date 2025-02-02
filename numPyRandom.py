@@ -173,3 +173,10 @@ x=random.uniform(size=(2,3))
 print(x)'''
 
 # Visualization of Uniform Distribution
+
+from numpy import random
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.displot(random.uniform(size = 1000))
+plt.show()

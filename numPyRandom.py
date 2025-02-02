@@ -1,5 +1,5 @@
 #Generate a random integer from 0 to 100
-from numpy import random
+'''from numpy import random
 
 x = random.randint(100)
 
@@ -45,7 +45,7 @@ print(xrdd)
 
 xrdd2 = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
 
-print(xrdd2)
+print(xrdd2)'''
 
 from numpy import random
 import numpy as np

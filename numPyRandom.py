@@ -45,7 +45,7 @@ print(xrdd)
 
 xrdd2 = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
 
-print(xrdd2)'''
+print(xrdd2)
 
 from numpy import random
 import numpy as np
@@ -71,4 +71,11 @@ plt.show()
 
 #Plotting a distplot without the histogram
 sns.distplot([0, 1, 2, 3, 4, 5], hist=False)
-plt.show()
+plt.show()'''
+
+#Generate a random normal distribution of size 2x3:
+
+from numpy import random
+
+x = random.normal(size=(2, 3))
+print(x)

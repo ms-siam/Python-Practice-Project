@@ -113,3 +113,5 @@ import seaborn as sns
 
 sns.displot(random.binomial(n=10, p=0.5, size=1000))
 plt.show()
+
+#Difference between Normal and Binomial Distribution

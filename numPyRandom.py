@@ -107,18 +107,18 @@ print(x)
 
 #Visualization of binomial Distribution
 
-from numpy import random
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-sns.displot(random.binomial(n=10, p=0.5, size=1000), kind= "kde")
-plt.show()
-
-#Difference between Normal and Binomial Distribution
 '''from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.displot(random.normal(loc=50,scale=5, size=1000), label='normal')
-sns.displot(random.binomial(n=100, p=0.5, size=1000), label='binomial')
+sns.displot(random.binomial(n=10, p=0.5, size=1000), kind= "kde")
 plt.show()'''
+
+#Difference between Normal and Binomial Distribution
+from numpy import random
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.displot(random.normal(loc=50,scale=5, size=1000),kind ="kde", label='normal')
+sns.displot(random.binomial(n=100, p=0.5, size=1000),kind="kde", label='binomial')
+plt.show()

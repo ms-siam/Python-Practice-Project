@@ -95,7 +95,7 @@ import seaborn as sns
 
 sns.distplot(random.normal(size = 1000), hist = False)
 
-plt.show()'''
+plt.show()
 
 #Binomial Distribution
 # Given 10 trials for coin toss generate 10 data points:
@@ -103,7 +103,7 @@ from numpy import random
 
 x = random.binomial(n=10, p=0.5, size=10)
 
-print(x)
+print(x)'''
 
 #Visualization of binomial Distribution
 
@@ -115,11 +115,13 @@ sns.displot(random.binomial(n=10, p=0.5, size=1000), kind= "kde")
 plt.show()'''
 
 #Difference between Normal and Binomial Distribution
-from numpy import random
+'''from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 #Use kdeplot instead of displot because displot doesn't support multiple plots in same figure
 sns.kdeplot(random.normal(loc=50,scale=5, size=1000), label='normal')
 sns.kdeplot(random.binomial(n=100, p=0.5, size=1000), label='binomial')
 plt.legend()   #It shows the label in plot
-plt.show()
+plt.show()'''
+
+#Poisson Distribution

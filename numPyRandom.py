@@ -96,3 +96,5 @@ import seaborn as sns
 sns.distplot(random.normal(size = 1000), hist = False)
 
 plt.show()
+
+#Binomial Distribution

@@ -46,3 +46,11 @@ print(xrdd)
 xrdd2 = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
 
 print(xrdd2)
+
+from numpy import random
+import numpy as np
+
+#shuffling arrays
+arrs = np.array([5, 6, 7, 8, 9])
+random.shuffle(arrs)
+print(arrs)

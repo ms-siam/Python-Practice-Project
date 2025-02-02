@@ -151,5 +151,5 @@ import seaborn as sns
 sns.kdeplot(random.normal(loc=50,scale=7, size=1000), label='normal')
 sns.kdeplot(random.poisson(lam=50, size=1000), label='poisson')
 
-plt.legend()   #It shows the label in plot
+plt.legend()  #It shows the label in plot
 plt.show()

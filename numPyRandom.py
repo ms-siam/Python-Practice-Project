@@ -54,3 +54,9 @@ import numpy as np
 arrs = np.array([5, 6, 7, 8, 9])
 random.shuffle(arrs)
 print(arrs)
+
+#Generating Permutation of Arrays
+
+arrp = np.array([1, 2, 3, 4, 5])
+print(random.permutation(arrp))
+print(arrp)

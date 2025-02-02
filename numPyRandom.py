@@ -152,7 +152,7 @@ sns.kdeplot(random.normal(loc=50,scale=7, size=1000), label='normal')
 sns.kdeplot(random.poisson(lam=50, size=1000), label='poisson')
 
 plt.legend()  #It shows the label in plot
-plt.show()'''
+plt.show()
 
 # Difference between Binomial and Poisson Distribution
 from numpy import random
@@ -164,4 +164,6 @@ sns.kdeplot(random.binomial(n=1000,p=0.01, size=1000), label='normal')
 sns.kdeplot(random.poisson(lam=10, size=1000), label='poisson')
 
 plt.legend()  #It shows the label in plot
-plt.show()
+plt.show()'''
+
+#Uniform Distribution

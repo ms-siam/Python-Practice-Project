@@ -118,8 +118,8 @@ plt.show()'''
 from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+#Use kdeplot instead of displot because displot doesn't support multiple plots in same figure
 sns.kdeplot(random.normal(loc=50,scale=5, size=1000), label='normal')
 sns.kdeplot(random.binomial(n=100, p=0.5, size=1000), label='binomial')
-plt.legend()
+plt.legend()   #It shows the label in plot
 plt.show()

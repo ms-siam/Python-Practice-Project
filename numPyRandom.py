@@ -125,3 +125,8 @@ plt.legend()   #It shows the label in plot
 plt.show()'''
 
 #Poisson Distribution
+#Generate a random 1x10 distribution for occurrence 2:
+from numpy import random
+
+x = random.poisson(lam=2, size=10)
+print(x)

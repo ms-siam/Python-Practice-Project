@@ -163,5 +163,5 @@ import seaborn as sns
 sns.kdeplot(random.binomial(n=1000,p=0.01, size=1000), label='normal')
 sns.kdeplot(random.poisson(lam=10, size=1000), label='poisson')
 
-plt.legend()   #It shows the label in plot
+plt.legend()  #It shows the label in plot
 plt.show()

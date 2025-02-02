@@ -155,3 +155,13 @@ plt.legend()  #It shows the label in plot
 plt.show()'''
 
 # Difference between Binomial and Poisson Distribution
+from numpy import random
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#Use kdeplot instead of displot because displot doesn't support multiple plots in same figure
+sns.kdeplot(random.binomial(n=1000,p=0.01, size=1000), label='normal')
+sns.kdeplot(random.poisson(lam=10, size=1000), label='poisson')
+
+plt.legend()   #It shows the label in plot
+plt.show()

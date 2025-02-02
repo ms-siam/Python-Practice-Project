@@ -122,11 +122,13 @@ import seaborn as sns
 sns.kdeplot(random.normal(loc=50,scale=5, size=1000), label='normal')
 sns.kdeplot(random.binomial(n=100, p=0.5, size=1000), label='binomial')
 plt.legend()   #It shows the label in plot
-plt.show()'''
+plt.show()
 
 #Poisson Distribution
 #Generate a random 1x10 distribution for occurrence 2:
 from numpy import random
 
 x = random.poisson(lam=2, size=10)
-print(x)
+print(x)'''
+
+#Visualization of Poison Distribution

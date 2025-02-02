@@ -129,7 +129,7 @@ plt.show()
 from numpy import random
 
 x = random.poisson(lam=2, size=10)
-print(x)'''
+print(x)
 
 #Visualization of Poison Distribution
 
@@ -140,4 +140,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.displot(random.poisson(lam=2, size=1000))
+plt.show()'''
+
+#Difference between Normal and Poisson Distribution
+from numpy import random
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#Use kdeplot instead of displot because displot doesn't support multiple plots in same figure
+sns.kdeplot(random.normal(loc=50,scale=7, size=1000), label='normal')
+sns.kdeplot(random.poisson(lam=50, size=1000), label='poisson')
+
+plt.legend()   #It shows the label in plot
 plt.show()

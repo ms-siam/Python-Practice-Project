@@ -65,10 +65,10 @@ print(arrp)
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.histplot([0, 1, 2, 3, 4, 5])
+sns.distplot([0, 1, 2, 3, 4, 5])
 
 plt.show()
 
 #Plotting a distplot without the histogram
-sns.displot([0, 1, 2, 3, 4, 5], hist=False)
+sns.distplot([0, 1, 2, 3, 4, 5], hist=False)
 plt.show()

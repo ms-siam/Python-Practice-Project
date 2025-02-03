@@ -220,7 +220,7 @@ from numpy import random
 
 x = random.multinomial(n=6, pvals=[1/6,  1/6, 1/6, 1/6, 1/6, 1/6])
 
-print(x)'''
+print(x)
 
 #Exponential Distribution
 
@@ -239,5 +239,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.displot(random.exponential(size=1000), kind="kde")
-plt.show()
+plt.show()'''
 
+#Chi square distribution

@@ -242,3 +242,9 @@ sns.displot(random.exponential(size=1000), kind="kde")
 plt.show()'''
 
 #Chi square distribution
+
+#Draw out a sample for chi squared distribution with degree of freedom 2 with size 2x3:
+
+from numpy import random
+x=random.chisquare(df = 2, size=(2,3))
+print(x)

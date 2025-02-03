@@ -210,7 +210,7 @@ sns.kdeplot(random.normal(scale=2, size=1000), label='normal')
 sns.kdeplot(random.logistic(size=1000), label='logistic')
 
 plt.legend()   #It shows the label in plot
-plt.show()'''
+plt.show()
 
 #Multinomial Distribution
 
@@ -220,4 +220,7 @@ from numpy import random
 
 x = random.multinomial(n=6, pvals=[1/6,  1/6, 1/6, 1/6, 1/6, 1/6])
 
-print(x)
+print(x)'''
+
+#Exponential Distribution
+

@@ -287,5 +287,5 @@ from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.histplot(random.pareto(a=2, size = 1000))
+sns.distplot(random.pareto(a=2, size = 1000))
 plt.show()

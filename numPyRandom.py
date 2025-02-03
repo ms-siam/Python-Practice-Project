@@ -232,3 +232,5 @@ x = random.exponential(scale = 2, size=(2, 3))
 
 print(x)
 
+#Visualization of Exponential Distribution
+

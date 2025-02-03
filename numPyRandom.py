@@ -200,3 +200,14 @@ sns.displot(random.logistic(size=1000), kind="kde")
 plt.show()'''
 
 #Difference between Normal and Logistic Distribution
+
+from numpy import random
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#Use kdeplot instead of displot because displot doesn't support multiple plots in same figure
+sns.kdeplot(random.normal(scale=2, size=1000), label='normal')
+sns.kdeplot(random.logistic(size=1000), label='logistic')
+
+plt.legend()   #It shows the label in plot
+plt.show()

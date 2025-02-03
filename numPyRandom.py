@@ -273,7 +273,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.displot(random.rayleigh(size = 1000), kind="kde")
-plt.show()'''
+plt.show()
 
 #Pareto Distribution
 #Draw out a sample for pareto distribution with shape of 2 with size 2x3:
@@ -288,4 +288,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.distplot(random.pareto(a=2, size = 1000), kde=False)
-plt.show()
+plt.show()'''
+
+#Zipf Distribution
+

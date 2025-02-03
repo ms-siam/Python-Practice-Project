@@ -178,8 +178,8 @@ from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.displot(random.uniform(low=3, high=5, size = 1000))   #From 3 to 5 
-sns.displot(random.uniform(size = 1000))   #From 0 to 1
+sns.displot(random.uniform(low=3, high=5, size = 1000), kind="kde")   #From 3 to 5 
+sns.displot(random.uniform(size = 1000), kind="kde")   #From 0 to 1
 plt.show()
 '''
 #Logistic Distribution

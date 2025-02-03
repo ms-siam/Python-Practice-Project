@@ -171,7 +171,7 @@ plt.show()
 from numpy import random
 x=random.uniform(size=(2,3))
 print(x)
-'''
+
 # Visualization of Uniform Distribution
 
 from numpy import random
@@ -181,7 +181,7 @@ import seaborn as sns
 sns.displot(random.uniform(low=3, high=5, size = 1000), kind="kde")   #From 3 to 5 
 sns.displot(random.uniform(size = 1000), kind="kde")   #From 0 to 1
 plt.show()
-'''
+
 #Logistic Distribution
 
 #Draw 2x3 samples from a logistic distribution with mean at 1 and staddev 2.0:
@@ -258,3 +258,5 @@ import seaborn as sns
 
 sns.displot(random.chisquare(df =1, size = 1000), kind="kde")
 plt.show()'''
+
+#Rayleigh Distribution

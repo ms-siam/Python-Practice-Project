@@ -26,3 +26,7 @@ print(myadd([11, 12, 13, 14], [22, 23, 24, 25]))'''
 import numpy as np
 print(type(np.add))
 
+# Check the type of another function: concatenate()
+
+import numpy as np
+print(type(np.concatenate()))

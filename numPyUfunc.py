@@ -15,3 +15,9 @@ z = np.add(x, y)
 print(z)
 
 #Create your own ufunc for addition
+import numpy as np
+def myadd(x, y):
+    return x+y
+myadd = np.frompyfunc(myadd, 2, 1)
+
+print(myadd([11, 12, 13, 14], [22, 23, 24, 25]))

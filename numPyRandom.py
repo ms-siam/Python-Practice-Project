@@ -197,7 +197,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.displot(random.logistic(size=1000), kind="kde")
-plt.show()'''
+plt.show()
 
 #Difference between Normal and Logistic Distribution
 
@@ -210,4 +210,6 @@ sns.kdeplot(random.normal(scale=2, size=1000), label='normal')
 sns.kdeplot(random.logistic(size=1000), label='logistic')
 
 plt.legend()   #It shows the label in plot
-plt.show()
+plt.show()'''
+
+#Multinomial Distribution

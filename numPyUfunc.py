@@ -294,3 +294,5 @@ arr2 = np.array([5,6,7,8])
 newarr = np.prod([arr1, arr2], axis = 1)
 
 print(newarr)
+
+#Cumulative Product

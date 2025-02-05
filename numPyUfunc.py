@@ -315,4 +315,4 @@ import numpy as np
 arr = np.array([10, 22, 34, 27])
 newarr = np.diff(arr, n=2)
 
-print(newarr)        #
+print(newarr)        

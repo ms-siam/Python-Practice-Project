@@ -303,3 +303,9 @@ newarr = np.cumprod(arr)
 print(newarr)'''
 
 #ufunc Differences
+#Compute discrete difference of the following array:
+import numpy as np
+arr = np.array([10, 22, 34, 27])
+newarr = np.diff(arr)
+
+print(newarr)

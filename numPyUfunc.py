@@ -309,3 +309,10 @@ arr = np.array([10, 22, 34, 27])
 newarr = np.diff(arr)
 
 print(newarr)
+
+#Compute discrete difference of the following array:
+import numpy as np
+arr = np.array([10, 22, 34, 27])
+newarr = np.diff(arr, n=2)
+
+print(newarr)        #

@@ -265,7 +265,7 @@ arr = np.array([1, 2, 3])
 
 newarr = np.cumsum(arr)
 
-print(newarr)'''
+print(newarr)
 
 #ufunc products
 #Find the product of the elements of this array:
@@ -300,4 +300,6 @@ print(newarr)
 import numpy as np
 arr = np.array([5, 6, 7, 8])
 newarr = np.cumprod(arr)
-print(newarr)
+print(newarr)'''
+
+#ufunc Differences

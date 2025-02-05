@@ -296,3 +296,8 @@ newarr = np.prod([arr1, arr2], axis = 1)
 print(newarr)
 
 #Cumulative Product
+#Take cumulative product of all elements for following array:
+import numpy as np
+arr = np.array([5, 6, 7, 8])
+newarr = np.cumprod(arr)
+print(newarr)

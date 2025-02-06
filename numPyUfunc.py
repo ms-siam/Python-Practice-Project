@@ -64,3 +64,6 @@ arr2 = np.array([20, 21, 22, 23, 24, 25])
 newarr = np.multiply(arr1, arr2)
 
 print(newarr)
+
+#Division
+#Divide the values in arr1 with the values in arr2:

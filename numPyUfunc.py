@@ -76,3 +76,6 @@ arr2 = np.array([3, 5, 10, 8, 2, 33])
 newarr = np.divide(arr1, arr2)
 
 print(newarr)
+
+#Power
+#Raise the valules in arr1 to the power of values in arr2:

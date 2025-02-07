@@ -175,3 +175,6 @@ import numpy as np
 arr = np.ceil([-3.16667, 3.666667])
 
 print(arr)
+
+#Ufunc logs
+#log at base 2

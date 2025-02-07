@@ -29,7 +29,7 @@ print(type(np.add))
 # Check the type of another function: concatenate()
 
 import numpy as np
-print(type(np.concatenate))'''
+print(type(np.concatenate))
 
 #Simple ARITHMETIC
 
@@ -128,4 +128,6 @@ arr = np.array([-1,-2,-3,0,1,6,3])
 
 newarr = np.absolute(arr)
 
-print(newarr)
+print(newarr)'''
+
+#ROunding Decimals

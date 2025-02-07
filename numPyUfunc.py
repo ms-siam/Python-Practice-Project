@@ -87,3 +87,5 @@ arr2 = np.array([3, 5, 6, 8, 2, 3])
 newarr = np.power(arr1, arr2)
 
 print(newarr)
+
+#remainders

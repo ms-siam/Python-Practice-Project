@@ -102,7 +102,7 @@ print(newarr)
 #Return the remainders
 
 import numpy as np
-arr1 = np.array([10, 20, 32, 47, 60])
+arr1 = np.array([15, 22, 32, 52, 60])
 arr2 = np.array([3, 7, 9, 7, 9])
 
 newarr = np.remainder(arr1, arr2)

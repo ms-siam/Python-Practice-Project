@@ -202,4 +202,6 @@ import numpy as np
 
 arr = np.arange(1, 10)
 
-print(np.log(arr))   
+print(np.log(arr)) 
+  
+#Log at any base

@@ -128,7 +128,7 @@ arr = np.array([-1,-2,-3,0,1,6,3])
 
 newarr = np.absolute(arr)
 
-print(newarr)'''
+print(newarr)
 
 #ROunding Decimals
 
@@ -174,7 +174,14 @@ print(arr)
 import numpy as np
 arr = np.ceil([-3.16667, 3.666667])
 
-print(arr)
+print(arr)'''
 
 #Ufunc logs
 #log at base 2
+#Find log at base 2 of all elements of following array:
+
+import numpy as np
+
+arr = np.arange(1, 10)
+
+print(np.log2(arr))

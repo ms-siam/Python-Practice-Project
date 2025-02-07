@@ -243,3 +243,5 @@ arr2 = np.array([1, 2, 3])
 
 newarr = np.sum([arr1, arr2])
 print(newarr)
+
+#Summation over an axis

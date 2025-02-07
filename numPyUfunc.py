@@ -131,3 +131,5 @@ newarr = np.absolute(arr)
 print(newarr)'''
 
 #ROunding Decimals
+
+#Truncation

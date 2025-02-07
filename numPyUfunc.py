@@ -141,3 +141,8 @@ arr = np.trunc([-3.1666, 3.6667])
 
 print(arr)
 #Using fix()
+import numpy as np
+
+arr = np.fix([-6.6666, 2.49999])
+
+print(arr)

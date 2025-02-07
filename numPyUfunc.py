@@ -108,3 +108,5 @@ arr2 = np.array([3, 7, 9, 7, 9])
 newarr = np.remainder(arr1, arr2)
 
 print(newarr)
+
+#Quotients and the mod

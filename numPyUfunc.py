@@ -161,3 +161,5 @@ import numpy as np
 arr = np.around(2.5555555, 3)
 
 print(arr)
+
+#floor

@@ -168,3 +168,5 @@ import numpy as np
 arr = np.floor([-3.16667, 3.666667])
 
 print(arr)
+
+#Ceil

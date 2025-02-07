@@ -163,3 +163,8 @@ arr = np.around(2.5555555, 3)
 print(arr)
 
 #floor
+# Floor the elements of following array:
+import numpy as np
+arr = np.floor([-3.16667, 3.666667])
+
+print(arr)

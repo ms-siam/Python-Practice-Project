@@ -154,3 +154,10 @@ import numpy as np
 arr = np.around(3.1417, 2)
 
 print(arr)
+
+#Round off 2.5555555 to 3 decimal places
+
+import numpy as np
+arr = np.around(2.5555555, 3)
+
+print(arr)

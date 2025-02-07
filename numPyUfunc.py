@@ -110,3 +110,12 @@ newarr = np.remainder(arr1, arr2)
 print(newarr)
 
 #Quotients and the mod
+#Return the quotient and the mod:
+
+import numpy as np
+arr1 = np.array([10, 20, 32, 47, 60])
+arr2 = np.array([3, 7, 9, 7, 9])
+
+newarr = np.divmod(arr1, arr2)
+
+print(newarr)

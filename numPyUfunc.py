@@ -170,3 +170,8 @@ arr = np.floor([-3.16667, 3.666667])
 print(arr)
 
 #Ceil
+# Ceil the elements of following array:
+import numpy as np
+arr = np.ceil([-3.16667, 3.666667])
+
+print(arr)

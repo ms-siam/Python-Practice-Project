@@ -121,3 +121,11 @@ newarr = np.divmod(arr1, arr2)
 print(newarr)
 
 #Absolute values
+
+import numpy as np
+
+arr = np.array([-1,-2,-3,0,1,6,3])
+
+newarr = np.absolute(arr)
+
+print(newarr)

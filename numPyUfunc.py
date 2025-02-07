@@ -119,3 +119,5 @@ arr2 = np.array([3, 7, 9, 7, 9])
 newarr = np.divmod(arr1, arr2)
 
 print(newarr)
+
+#Absolute values

@@ -133,3 +133,10 @@ print(newarr)'''
 #ROunding Decimals
 
 #Truncation
+#Truncate elements of following array:
+
+import numpy as np
+
+arr = np.trunc([-3.1666, 3.6667])
+
+print(arr)

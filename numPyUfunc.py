@@ -174,7 +174,7 @@ print(arr)
 import numpy as np
 arr = np.ceil([-3.16667, 3.666667])
 
-print(arr)'''
+print(arr)
 
 #Ufunc logs
 #log at base 2
@@ -221,4 +221,6 @@ arr = np.array([10, 100, 1000])
 bases = np.array([2, 10, 5])
 
 result = nplog(arr, bases)
-print(result)
+print(result)'''
+
+#ufunc Summations

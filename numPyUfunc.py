@@ -146,3 +146,5 @@ import numpy as np
 arr = np.fix([-6.6666, 2.49999])
 
 print(arr)
+
+#Rounding

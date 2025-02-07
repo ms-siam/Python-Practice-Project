@@ -256,3 +256,13 @@ newarr = np.sum([arr1, arr2], axis = 1)
 print(newarr)
 
 #Cumulative sum
+
+#Perform cumulative summation in the following array:
+
+import numpy as np
+
+arr = np.array([1, 2, 3])
+
+newarr = np.cumsum(arr)
+
+print(newarr)

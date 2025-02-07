@@ -215,6 +215,7 @@ print(nplog(100, 15))
 #Take a look
 from math import log
 import numpy as np
+nplog = np.frompyfunc(log, 2, 1)
 
 arr = np.array([10, 100, 1000])
 bases = np.array([2, 10, 5])

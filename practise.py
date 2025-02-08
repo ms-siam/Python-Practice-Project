@@ -19,10 +19,10 @@ print(Path.cwd())
 print(Path.home())
 print(Path.cwd().is_absolute())
 print(Path('Spam/bacon/eggs').is_absolute())
-'''
 
 import send2trash
 baconFile = open('bacon.txt', 'a')
 baconFile.write('Bacon is not siam')
 baconFile.close()
-send2trash.send2trash('bacon.txt')
+send2trash.send2trash('bacon.txt')'''
+

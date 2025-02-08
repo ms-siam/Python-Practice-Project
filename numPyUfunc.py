@@ -347,3 +347,5 @@ num2 = 9
 x = np.gcd(num1, num2)
 
 print(x)
+
+#Finding GCD in arrays

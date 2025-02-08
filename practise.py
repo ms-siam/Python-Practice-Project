@@ -9,8 +9,7 @@ batRegex1 = re.compile(r'Bat(wo)?man') # ? means optional
 matchObject1 = batRegex1.search('The adventures of Batman')  
 print(matchObject1.group()) # Batman
 matchObject2 = batRegex1.search('The adventures of Batwoman')
-print(matchObject2.group()) # Batwoman'''
-
+print(matchObject2.group()) # Batwoman
 
 from pathlib import Path
 import os
@@ -20,3 +19,5 @@ print(Path.cwd())
 print(Path.home())
 print(Path.cwd().is_absolute())
 print(Path('Spam/bacon/eggs').is_absolute())
+'''
+

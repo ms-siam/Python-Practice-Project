@@ -414,3 +414,10 @@ x = np.hypot(base, perp)
 print(x)
 
 #Hyperbolic functions
+#Find sinh value of pi/2:
+
+import numpy as np
+
+x = np.sinh(np.pi/2)
+
+print(x)

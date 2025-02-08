@@ -391,3 +391,6 @@ print(x)
 import numpy as np
 x = np.arcsin(1.0)
 print(x)
+
+
+#Angle of each value in array

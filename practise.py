@@ -22,3 +22,7 @@ print(Path('Spam/bacon/eggs').is_absolute())
 '''
 
 import send2trash
+baconFile = open('bacon.txt', 'a')
+baconFile.write('Bacon is not siam')
+baconFile.close()
+send2trash.send2trash(baconFile)

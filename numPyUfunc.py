@@ -329,3 +329,10 @@ x = np.lcm(num1, num2)
 print(x)
 
 #Find lcm in arrays
+#Find the LCM of values of the following array:
+
+import numpy as np
+arr = np.array([3, 6, 9])
+x = np.lcm.reduce(arr)
+
+print(x)

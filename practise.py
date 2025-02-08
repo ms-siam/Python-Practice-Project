@@ -27,7 +27,7 @@ baconFile.close()
 send2trash.send2trash('bacon.txt')'''
 
 import os
-for folderName, subFolders, filenames in os.walk('E:\\Python'):
+for folderName, subFolders, filenames in os.walk('C:\\Users\\Mobarok Siam\\Desktop'):
     print(f"The folder name is: {folderName}")
     for subFolder in subFolders:
         print(f"Subfolder of {folderName}: {subFolder}")

@@ -31,4 +31,7 @@ for folderName, subFolders, filenames in os.walk('E:\\Python'):
     print(f"The folder name is: {folderName}")
     for subFolder in subFolders:
         print(f"Subfolder of {folderName}: {subFolder}")
+    for filename in filenames:
+        print(f"File inside of {folderName} : {filename}")
         
+    print('')

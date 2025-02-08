@@ -315,7 +315,7 @@ import numpy as np
 arr = np.array([10, 22, 34, 27])
 newarr = np.diff(arr, n=2)
 
-print(newarr)        '''
+print(newarr)        
 
 #Ufunc  Finding LCM
 #Find the LCM of the following two numbers:
@@ -335,4 +335,6 @@ import numpy as np
 arr = np.array([3, 6, 9])
 x = np.lcm.reduce(arr)
 
-print(x)
+print(x)'''
+
+#Finding GCD

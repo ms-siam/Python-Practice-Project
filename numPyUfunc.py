@@ -358,3 +358,7 @@ x = np.gcd.reduce(arr)
 print(x)'''
 
 #ufunc Trigonometric
+#Find sine value of PI/2:
+import numpy as np
+x = np.sin(np.pi/2)
+print(x)

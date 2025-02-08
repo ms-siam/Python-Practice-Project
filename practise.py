@@ -25,4 +25,4 @@ import send2trash
 baconFile = open('bacon.txt', 'a')
 baconFile.write('Bacon is not siam')
 baconFile.close()
-send2trash.send2trash(baconFile)
+send2trash.send2trash('bacon.txt')

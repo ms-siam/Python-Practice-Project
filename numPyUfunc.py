@@ -482,3 +482,12 @@ print(newarr)
 
 
 #Finding Symmetric Difference
+# FInd the symmetric difference of the set1 and set2:
+
+import numpy as np
+set1 = np.array([1, 2, 3, 4, 5])
+set2 = np.array([3, 4, 5, 6, 7])
+
+newarr = np.setxor1d(set1, set2, assume_unique = True)
+
+print(newarr)

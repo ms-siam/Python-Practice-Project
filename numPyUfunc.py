@@ -335,7 +335,7 @@ import numpy as np
 arr = np.array([3, 6, 9])
 x = np.lcm.reduce(arr)
 
-print(x)'''
+print(x)
 
 #Finding GCD
 #FInd the HCF of the following two numbers:
@@ -355,4 +355,6 @@ import numpy as np
 arr = np.array([20, 8, 32, 36,16])
 x = np.gcd.reduce(arr)
 
-print(x)
+print(x)'''
+
+#ufunc Trigonometric

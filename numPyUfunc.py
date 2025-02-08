@@ -411,7 +411,7 @@ perp = 4
 
 x = np.hypot(base, perp)
 
-print(x)'''
+print(x)
 
 #Hyperbolic functions
 #Find sinh value of pi/2:
@@ -445,4 +445,6 @@ import numpy as np
 arr = np.array([0.1, 0.2, 0.5])
 x = np.arctanh(arr)
 
-print(x)      
+print(x)      '''
+
+#ufunc Set Operation

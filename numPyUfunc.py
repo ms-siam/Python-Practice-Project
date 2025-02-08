@@ -412,3 +412,5 @@ perp = 4
 x = np.hypot(base, perp)
 
 print(x)
+
+#Hyperbolic functions

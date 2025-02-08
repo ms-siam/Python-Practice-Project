@@ -21,3 +21,4 @@ print(Path.cwd().is_absolute())
 print(Path('Spam/bacon/eggs').is_absolute())
 '''
 
+import send2trash

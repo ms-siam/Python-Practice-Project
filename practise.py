@@ -26,3 +26,9 @@ baconFile.write('Bacon is not siam')
 baconFile.close()
 send2trash.send2trash('bacon.txt')'''
 
+import os
+for folderName, subFolders, filenames in os.walk('E:\\Python'):
+    print(f"The folder name is: {folderName}")
+    for subFolder in subFolders:
+        print(f"Subfolder of {folderName}: {subFolder}")
+        

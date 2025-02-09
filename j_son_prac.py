@@ -29,3 +29,9 @@ print(data)
 json_string = json.dumps(data, indent=4)
 print(json_string)'''
 
+import json
+
+json_string = '{"name": "Mobarok", "age": 20}'
+
+data = json.loads(json_string)  # Convert string to dictionary
+print(data["name"])  # Accessing values

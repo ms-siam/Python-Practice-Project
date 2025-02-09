@@ -46,3 +46,6 @@ user_details = {
     "Age" : age,
     "Skills" : skills
 }
+
+with open('data.json', 'w') as file:
+    

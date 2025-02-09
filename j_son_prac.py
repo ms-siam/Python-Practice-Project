@@ -41,7 +41,7 @@ import json
 
 name = input('Write your name.')
 age = int(input("What's your age?"))
-skills = list(input("What are your skills?"))
+skills = input("What are your skills?").split(", ")
 
 user_details = {
     "Name": name,

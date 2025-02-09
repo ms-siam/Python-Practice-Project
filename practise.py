@@ -41,3 +41,17 @@ from colorama import Fore, Style
 print(Fore.RED + "This is red text!" + Style.RESET_ALL)
 print(Fore.GREEN + "This is green text!" + Style.RESET_ALL)
 print(Fore.YELLOW + "Warning: Something went wrong!" + Style.RESET_ALL)
+
+from tabulate import tabulate
+
+users = [
+    (1, "Alice", 25, "Python, C++"),
+    (2, "Bob", 22, "Java, SQL"),
+    (3, "Charlie", 28, "JavaScript, Go")
+]
+
+# Define headers
+headers = ["ID", "Name", "Age", "Skills"]
+
+# Print table
+print(tabulate(users, headers=headers, tablefmt="fancy_grid"))

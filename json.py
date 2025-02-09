@@ -7,3 +7,6 @@ data = {
 }
 
 #Writing to a json file
+
+with open('data.json', 'w') as file:
+    json.dump(data, file, indent = 4)

@@ -25,6 +25,6 @@ print(data["Date"])'''
 import json
 
 data = {"name": "Mobarok", "age": 20}
-
+print(data)
 json_string = json.dumps(data, indent=4)
 print(json_string)

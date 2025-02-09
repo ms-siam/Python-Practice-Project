@@ -51,4 +51,6 @@ user_details = {
 
 with open('data.json', 'w') as file:
     json.dump(user_details, file, indent = 4)
-    
+
+print('User details have been saved in a json file')
+

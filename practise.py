@@ -24,7 +24,7 @@ import send2trash
 baconFile = open('bacon.txt', 'a')
 baconFile.write('Bacon is not siam')
 baconFile.close()
-send2trash.send2trash('bacon.txt')'''
+send2trash.send2trash('bacon.txt')
 
 import os
 for folderName, subFolders, filenames in os.walk('C:\\Users\\Mobarok Siam\\Desktop'):
@@ -34,4 +34,5 @@ for folderName, subFolders, filenames in os.walk('C:\\Users\\Mobarok Siam\\Deskt
     for filename in filenames:
         print(f"File inside of {folderName} : {filename}")
         
-    print('')
+    print('')'''
+    

@@ -1,4 +1,4 @@
-import json
+'''import json
 
 data = {
     "Date" : "09 Feb, 2025",
@@ -11,4 +11,7 @@ data = {
 with open('data.json', 'w') as file:
     json.dump(data, file, indent = 4)
     
-print('data.json file has been created.')
+print('data.json file has been created.')'''
+
+
+import

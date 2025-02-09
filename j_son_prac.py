@@ -14,4 +14,7 @@ with open('data.json', 'w') as file:
 print('data.json file has been created.')'''
 
 
-import
+import json
+
+with open('data.json', 'r') as file:
+    

@@ -40,7 +40,9 @@ print(data["name"])  # Accessing values'''
 name = input('Write your name.')
 age = int(input("What's your age?"))
 skills = list(input("What are your skills?"))
+
 user_details = {
     "Name": name,
-    
+    "Age" : age,
+    "Skills" : skills
 }

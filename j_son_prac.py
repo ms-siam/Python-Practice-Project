@@ -36,3 +36,11 @@ json_string = '{"name": "Mobarok", "age": 20}'
 data = json.loads(json_string)  # Convert string to dictionary
 print(data["name"])  # Accessing values'''
 
+
+name = input('Write your name.')
+age = int(input("What's your age?"))
+skills = list(input("What are your skills?"))
+user_details = {
+    "Name": name,
+    
+}

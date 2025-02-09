@@ -34,7 +34,7 @@ for folderName, subFolders, filenames in os.walk('C:\\Users\\Mobarok Siam\\Deskt
     for filename in filenames:
         print(f"File inside of {folderName} : {filename}")
         
-    print('')'''
+    print('')
     
 from colorama import Fore, Style
 
@@ -55,3 +55,5 @@ headers = ["ID", "Name", "Age", "Skills"]
 
 # Print table
 print(tabulate(users, headers=headers, tablefmt="fancy_grid"))
+
+'''

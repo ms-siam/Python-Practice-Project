@@ -36,3 +36,8 @@ for folderName, subFolders, filenames in os.walk('C:\\Users\\Mobarok Siam\\Deskt
         
     print('')'''
     
+from colorama import Fore, Style
+
+print(Fore.RED + "This is red text!" + Style.RESET_ALL)
+print(Fore.GREEN + "This is green text!" + Style.RESET_ALL)
+print(Fore.YELLOW + "Warning: Something went wrong!" + Style.RESET_ALL)

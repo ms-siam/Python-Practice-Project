@@ -67,7 +67,7 @@ root.geometry("400x300")  # Width x Height
 # Run the app
 root.mainloop()
 
-'''
+
 
 import tkinter as tk
 
@@ -96,3 +96,56 @@ label_result = tk.Label(root, text="", font=("Arial", 12))
 label_result.pack(pady=10)
 
 root.mainloop()
+'''
+import tkinter as tk
+import sqlite3
+
+# Database setup
+conn = sqlite3.connect("todo.db")
+cursor = conn.cursor()
+cursor.execute("CREATE TABLE IF NOT EXISTS tasks (id INTEGER PRIMARY KEY, task TEXT)")
+conn.commit()
+
+def add_task():
+    task = entry.get()
+    if task:
+        cursor.execute("INSERT INTO tasks (task) VALUES (?)", (task,))
+        conn.commit()
+        entry.delete(0, tk.END)
+        load_tasks()
+
+def remove_task():
+    selected_task = listbox.curselection()
+    if selected_task:
+        task_id = listbox.get(selected_task).split(".")[0]
+        cursor.execute("DELETE FROM tasks WHERE id = ?", (task_id,))
+        conn.commit()
+        load_tasks()
+
+def load_tasks():
+    listbox.delete(0, tk.END)
+    cursor.execute("SELECT * FROM tasks")
+    for task in cursor.fetchall():
+        listbox.insert(tk.END, f"{task[0]}. {task[1]}")
+
+# GUI setup
+root = tk.Tk()
+root.title("To-Do List")
+root.geometry("400x400")
+
+entry = tk.Entry(root, width=40)
+entry.pack(pady=10)
+
+add_button = tk.Button(root, text="Add Task", command=add_task)
+add_button.pack(pady=5)
+
+listbox = tk.Listbox(root, width=50, height=10)
+listbox.pack(pady=10)
+
+remove_button = tk.Button(root, text="Remove Task", command=remove_task)
+remove_button.pack(pady=5)
+
+load_tasks()
+root.mainloop()
+
+conn.close()

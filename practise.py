@@ -68,3 +68,31 @@ root.geometry("400x300")  # Width x Height
 root.mainloop()
 
 '''
+
+import tkinter as tk
+
+def show_name():
+    user_input = entry.get()
+    label_result.config(text=f"Hello, {user_input}!")
+
+root = tk.Tk()
+root.title("Simple Tkinter App")
+root.geometry("400x300")
+
+# Label
+label = tk.Label(root, text="Enter your name:")
+label.pack(pady=10)
+
+# Entry field
+entry = tk.Entry(root)
+entry.pack(pady=5)
+
+# Button
+button = tk.Button(root, text="Submit", command=show_name)
+button.pack(pady=10)
+
+# Label to display result
+label_result = tk.Label(root, text="", font=("Arial", 12))
+label_result.pack(pady=10)
+
+root.mainloop()

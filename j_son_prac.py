@@ -14,10 +14,17 @@ with open('data.json', 'w') as file:
 print('data.json file has been created.')'''
 
 
-import json
+'''import json
 
 with open('data.json', 'r') as file:
     data = json.load(file)
     
 print(data)
-print(data["Date"])
+print(data["Date"])'''
+
+import json
+
+data = {"name": "Mobarok", "age": 20}
+
+json_string = json.dumps(data, indent=4)
+print(json_string)

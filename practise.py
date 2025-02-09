@@ -57,3 +57,12 @@ headers = ["ID", "Name", "Age", "Skills"]
 print(tabulate(users, headers=headers, tablefmt="fancy_grid"))
 
 '''
+import tkinter as tk
+
+# Create the main window
+root = tk.Tk()
+root.title("My First GUI App")
+root.geometry("400x300")  # Width x Height
+
+# Run the app
+root.mainloop()

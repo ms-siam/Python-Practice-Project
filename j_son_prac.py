@@ -17,4 +17,4 @@ print('data.json file has been created.')'''
 import json
 
 with open('data.json', 'r') as file:
-    
+    data = json.load(file)

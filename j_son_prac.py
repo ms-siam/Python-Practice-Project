@@ -57,6 +57,6 @@ print('User details have been saved in a json file')
 with open('data.json', 'r') as file:
     data = json.load(file)
 
-print(f"Reading the {file} file.")
+print(f"Reading the {file.name} file.")
 
 print(data)

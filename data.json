@@ -1,9 +1,19 @@
 {
-    "Date": "09 Feb, 2025",
-    "Learning": [
-        "JSON",
-        "SQLITE3",
-        "PyQt"
-    ],
-    "Doing": "To-Do List Project"
+    "Name": "Siam",
+    "Age": 20,
+    "Skills": [
+        "P",
+        "y",
+        "t",
+        "h",
+        "o",
+        "n",
+        ",",
+        " ",
+        "N",
+        "u",
+        "m",
+        "P",
+        "y"
+    ]
 }

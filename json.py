@@ -5,3 +5,5 @@ data = {
     "Learning" : ['JSON', 'SQLITE3', 'PyQt'],
     "Doing" : "To-Do List Project"
 }
+
+#Writing to a json file

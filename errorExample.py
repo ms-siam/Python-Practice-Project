@@ -5,4 +5,4 @@ try:
 except:
     errorFile = open('errorInfo.txt', 'w')
     errorFile.write(traceback.format_exc())
-    
+    errorFile.close

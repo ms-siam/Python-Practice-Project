@@ -96,7 +96,6 @@ label_result = tk.Label(root, text="", font=("Arial", 12))
 label_result.pack(pady=10)
 
 root.mainloop()
-'''
 import tkinter as tk
 import sqlite3
 
@@ -149,3 +148,4 @@ load_tasks()
 root.mainloop()
 
 conn.close()
+'''

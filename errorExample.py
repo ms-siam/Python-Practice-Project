@@ -5,4 +5,5 @@ try:
 except:
     errorFile = open('errorInfo.txt', 'w')
     errorFile.write(traceback.format_exc())
-    errorFile.close
+    errorFile.close()
+    print('The traceback Info was written to erroInfo.txt')

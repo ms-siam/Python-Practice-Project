@@ -4,4 +4,5 @@ try:
     raise Exception('This is the error message.')
 except:
     errorFile = open('errorInfo.txt', 'w')
-    error
+    errorFile.write(traceback.format_exc())
+    

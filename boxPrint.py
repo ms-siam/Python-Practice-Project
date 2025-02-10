@@ -5,3 +5,9 @@ def boxPrint(symbol, width, height):
         raise Exception('Width must be greater than 2.')
     if height <= 2:
         raise Exception('Height must be greater than 2.')
+    print( symbol * width)
+for sym, w, h in (('*', 4, 4), ('O', 20, 5), ('x', 1, 3). ('ZZ', 3, 3)):
+    try:
+        boxPrint(sym, w, h)
+    except Exception as err:
+        print('An exception happened: ' + str(err))

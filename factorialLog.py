@@ -10,3 +10,5 @@ def factorial(n):
         logging.debug('i is ' + str(i) + ', total is ' + str(total))
     logging.debug('End of factorial (%s%%)' % (n))
     return total
+
+print(factorial(5))

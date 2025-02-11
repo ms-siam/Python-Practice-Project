@@ -12,3 +12,4 @@ def factorial(n):
     return total
 
 print(factorial(5))
+logging.debug('End of the program')

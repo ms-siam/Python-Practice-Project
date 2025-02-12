@@ -181,3 +181,5 @@ with open('RomeoAndJuliet.txt', 'wb') as playFile:
 '''
 
 # Creating a BeautifulSoup object from HTML
+
+import requests, bs4

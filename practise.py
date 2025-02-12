@@ -155,3 +155,5 @@ print(ages)
 assert ages[0] <= ages[-1]'''
 
 import requests
+
+res = requests.get('https://automatetheboringstuff.com/files/rj.txt')

@@ -166,7 +166,7 @@ print(res.status_code == requests.codes.ok)
 print(len(res.text))
 
 print(res.text[:50])
-'''
+
 
 #SAving downloaded files to hARD DRIVE
 
@@ -178,3 +178,4 @@ res.raise_for_status()
 with open('RomeoAndJuliet.txt', 'wb') as playFile:
     for chunk in res.iter_content(100000):
         playFile.write(chunk)
+'''

@@ -154,6 +154,8 @@ ages.reverse()
 print(ages)
 assert ages[0] <= ages[-1]'''
 
+#Downloading a webpage with requests.get()
+
 import requests
 
 res = requests.get('https://automatetheboringstuff.com/files/rj.txt')

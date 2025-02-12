@@ -179,3 +179,5 @@ with open('RomeoAndJuliet.txt', 'wb') as playFile:
     for chunk in res.iter_content(100000):
         playFile.write(chunk)
 '''
+
+# Creating a BeautifulSoup object from HTML

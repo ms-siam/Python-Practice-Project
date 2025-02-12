@@ -235,3 +235,4 @@ print(spanElem.attrs)'''
 # Controlling the browser with the selenium module
 
 #Starting a selenium-controlled browser
+from selenium import webdriver

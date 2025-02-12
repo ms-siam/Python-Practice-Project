@@ -189,7 +189,7 @@ res.raise_for_status()
 noStarchSoup = bs4.BeautifulSoup(res.text, 'html.parser')
 
 print(type(noStarchSoup))
-'''
+
 # loading an HTML file from hard drive
 import requests, bs4
 
@@ -216,4 +216,7 @@ print(pElems[1].getText())
 
 print(str(pElems[2]))
 
-print(pElems[2].getText())
+print(pElems[2].getText())'''
+
+
+#Getting  data from an element's attributes

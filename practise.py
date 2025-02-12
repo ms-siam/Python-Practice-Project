@@ -242,3 +242,4 @@ browser.get('https://inventwithpython.com')
 '''
 from selenium import webdriver
 browser = webdriver.Chrome()
+browser.get('https://inventwithpython.com/')

@@ -192,3 +192,5 @@ print(type(noStarchSoup))
 '''
 # loading an HTML file from hard drive
 import requests, bs4
+
+exampleFile = open('example.html')

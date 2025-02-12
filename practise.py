@@ -230,7 +230,7 @@ print(str(spanElem))
 
 print(spanElem.get('id'))
 
-print(spanElem.attrs)'''
+print(spanElem.attrs)
 
 # Controlling the browser with the selenium module
 
@@ -239,3 +239,5 @@ from selenium import webdriver
 browser = webdriver.Firefox()
 print(type(browser))
 browser.get('https://inventwithpython.com')
+'''
+from selenium import webdriver

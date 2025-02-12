@@ -216,7 +216,7 @@ print(pElems[1].getText())
 
 print(str(pElems[2]))
 
-print(pElems[2].getText())'''
+print(pElems[2].getText())
 
 
 #Getting  data from an element's attributes
@@ -230,4 +230,6 @@ print(str(spanElem))
 
 print(spanElem.get('id'))
 
-print(spanElem.attrs)
+print(spanElem.attrs)'''
+
+# Controlling the browser with the selenium module

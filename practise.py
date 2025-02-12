@@ -222,3 +222,5 @@ print(pElems[2].getText())'''
 #Getting  data from an element's attributes
 
 import bs4
+
+soup = bs4.BeautifulSoup(open('example.html'), 'html.parser')

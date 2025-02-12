@@ -203,3 +203,5 @@ print(type(elems[0]))
 print(str(elems[0]))
 print(elems[0].getText())
 print(elems[0].attrs)
+
+pElems = exampleSoup.select('p')

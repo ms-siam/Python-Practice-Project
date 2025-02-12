@@ -243,3 +243,6 @@ browser.get('https://inventwithpython.com')
 from selenium import webdriver
 browser = webdriver.Chrome()
 browser.get('https://inventwithpython.com/')
+try:
+    elem = browser.find_element_by_class_name(' cover-thumb')
+    print('Found <%s> element with that class name!' % (elem.tag_name))

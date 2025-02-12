@@ -191,3 +191,4 @@ noStarchSoup = bs4.BeautifulSoup(res.text, 'html.parser')
 print(type(noStarchSoup))
 '''
 # loading an HTML file from hard drive
+import requests, bs4

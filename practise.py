@@ -178,7 +178,7 @@ res.raise_for_status()
 with open('RomeoAndJuliet.txt', 'wb') as playFile:
     for chunk in res.iter_content(100000):
         playFile.write(chunk)
-'''
+
 
 # Creating a BeautifulSoup object from HTML
 
@@ -189,3 +189,5 @@ res.raise_for_status()
 noStarchSoup = bs4.BeautifulSoup(res.text, 'html.parser')
 
 print(type(noStarchSoup))
+'''
+# loading an HTML file from hard drive

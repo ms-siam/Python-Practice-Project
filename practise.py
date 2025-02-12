@@ -211,3 +211,5 @@ print(str(pElems[0]))
 print(pElems[0].getText())
 
 print(str(pElems[1]))
+
+print(pElems[1].getText())

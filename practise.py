@@ -202,3 +202,4 @@ print(len(elems))
 print(type(elems[0]))
 print(str(elems[0]))
 elems[0].getText()
+elems[0].attrs

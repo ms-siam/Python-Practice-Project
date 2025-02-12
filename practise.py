@@ -171,3 +171,5 @@ print(res.text[:50])
 #SAving downloaded files to hARD DRIVE
 
 import requests
+
+res = requests.get('https://automatetheboringstuff.com/files/rj.txt')

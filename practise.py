@@ -148,8 +148,8 @@ load_tasks()
 root.mainloop()
 
 conn.close()
-'''
+
 ages = [12, 78, 23, 34,34,21,43, 45, 43, 95, 28, 19, 38, 18, 48, 56, 32, 27]
 ages.reverse()
 print(ages)
-assert ages[0] <= ages[-1]
+assert ages[0] <= ages[-1]'''

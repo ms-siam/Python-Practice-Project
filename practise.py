@@ -152,7 +152,7 @@ conn.close()
 ages = [12, 78, 23, 34,34,21,43, 45, 43, 95, 28, 19, 38, 18, 48, 56, 32, 27]
 ages.reverse()
 print(ages)
-assert ages[0] <= ages[-1]'''
+assert ages[0] <= ages[-1]
 
 #Downloading a webpage with requests.get()
 
@@ -166,3 +166,6 @@ print(res.status_code == requests.codes.ok)
 print(len(res.text))
 
 print(res.text[:50])
+'''
+
+#SAving downloaded files to hARD DRIVE

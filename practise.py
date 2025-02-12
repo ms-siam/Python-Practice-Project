@@ -241,7 +241,7 @@ print(type(browser))
 browser.get('https://inventwithpython.com')
 '''
 from selenium import webdriver
-browser = webdriver.Chrome()
+browser = webdriver.Firefox()
 browser.get('https://inventwithpython.com/')
 try:
     elem = browser.find_element_by_class_name(' cover-thumb')

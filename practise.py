@@ -229,3 +229,5 @@ spanElem = soup.select('span')[0]
 print(str(spanElem))
 
 print(spanElem.get('id'))
+
+print(spanElem.attrs)

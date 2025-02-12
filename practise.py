@@ -236,3 +236,4 @@ print(spanElem.attrs)'''
 
 #Starting a selenium-controlled browser
 from selenium import webdriver
+browser = webdriver.Firefox()

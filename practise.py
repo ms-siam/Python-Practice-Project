@@ -283,3 +283,4 @@ from selenium.webdriver.common.keys import Keys
 
 browser = webdriver.Firefox()
 browser.get('https://nostarch.com')
+htmlElem = browser.find_element('tag name', 'html')

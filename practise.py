@@ -285,4 +285,6 @@ browser = webdriver.Firefox()
 browser.get('https://nostarch.com')
 htmlElem = browser.find_element('tag name', 'html')
 htmlElem.send_keys(Keys.END)
+
+time.sleep(2)
 htmlElem.send_keys(Keys.HOME)

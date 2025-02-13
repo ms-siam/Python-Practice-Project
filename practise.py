@@ -265,3 +265,4 @@ linkElem.click()
 #FIlinig out and submitting forms
 
 from selenium import webdriver
+browser = webdriver.Firefox()

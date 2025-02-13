@@ -269,4 +269,6 @@ import pyinputplus as pyip
 browser = webdriver.Firefox()
 browser.get('https://login.metafilter.com/')
 userElem = browser.find_element('id', 'user_name')
-userElem.send_keys('')
+userElem.send_keys(pyip.inputStr('Type your username here'))
+
+

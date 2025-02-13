@@ -265,6 +265,7 @@ linkElem.click()
 #FIlinig out and submitting forms
 
 from selenium import webdriver
+import pyinputplus as pyip
 browser = webdriver.Firefox()
 browser.get('https://login.metafilter.com/')
 userElem = browser.find_element('id', 'user_name')

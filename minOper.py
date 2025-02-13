@@ -7,4 +7,6 @@ def minOperations(num, k):
     for i in num:
         if i > k:
             return 0
-    
+    while len(num) >= 2:
+        
+

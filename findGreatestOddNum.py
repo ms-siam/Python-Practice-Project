@@ -1,8 +1,8 @@
 #! python3
 # findGreatestOddNum.py- Find the highest odd number in a given integer
 
-num = int(input('Type an number: '))
-
-for i in num:
-    
-if num 
+num = input('Type an number: ')
+index = 0
+for i in range(len(num)-1,-1,-1):
+    if int(num[i]) % 2 == 1:
+        

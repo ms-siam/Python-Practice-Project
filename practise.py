@@ -268,4 +268,4 @@ from selenium import webdriver
 browser = webdriver.Firefox()
 browser.get('https://login.metafilter.com/')
 userElem = browser.find_element('id', 'user_name')
-
+userElem.send_keys('')

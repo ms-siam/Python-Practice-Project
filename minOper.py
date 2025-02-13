@@ -13,7 +13,7 @@ def minOperations(num, k):
         num.sort()
         x = num[0]
         del num[x.index()]
-        y = min(num)
+        y = num[1]
         del num[y.index()]
         newElem = x * 2 + y
         num.append(newElem)

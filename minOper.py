@@ -12,4 +12,5 @@ def minOperations(num, k):
         del num[x.index()]
         y = min(num)
         del num[y.index()]
+        newElem = x * 2 + y
         

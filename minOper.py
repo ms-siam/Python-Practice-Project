@@ -5,7 +5,7 @@ num = [2,11,10,1,3]
 k = 10
 import bisect
 class Solution:
-    def minOperations(num, k):
+    def minOperations(self,num, k):
         num.sort()
         if all( i >= k for i in num):
             return 0
@@ -22,5 +22,5 @@ class Solution:
         if num[-1] < k:
             return -1
         return operationsCount
-Solution().minOperations(nums, k)  
+print(Solution().minOperations(num, k)) 
 

@@ -248,7 +248,7 @@ try:
     print('Found <%s> element with that class name!' % (elem.tag_name))
 except:
     print('Was not able to find an element with that name')
-'''
+
 
 #Clicking the page
 
@@ -259,3 +259,7 @@ linkElem = browser.find_element("link text", "Read Online for Free")
 print(type(linkElem))
 
 linkElem.click()
+
+'''
+
+#FIlinig out and submitting forms

@@ -11,4 +11,5 @@ def minOperations(num, k):
         x = min(num)
         del num[x.index()]
         y = min(num)
+        del num[y.index()]
         

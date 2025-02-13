@@ -253,3 +253,4 @@ except:
 #Clicking the page
 
 from selenium import webdriver
+browser = webdriver.Firefox()

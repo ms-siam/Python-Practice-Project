@@ -272,4 +272,4 @@ userElem = browser.find_element('id', 'user_name')
 userElem.send_keys(pyip.inputStr('Type your username here'))
 
 passElem = browser.find_element('id', 'user_pass')
-
+passElem.send_keys(pyip.inputPassword('Type your password here'))

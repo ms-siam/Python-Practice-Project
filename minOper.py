@@ -7,7 +7,7 @@ operationsCount = 0
 def minOperations(num, k):
     for i in num:
         if i > k:
-            return 0
+            break
         while len(num) >= 2:
             x = min(num)
             del num[x.index()]

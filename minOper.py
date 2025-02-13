@@ -5,9 +5,8 @@ num = [2,11,10,1,3]
 k = 10
 
 def minOperations(num, k):
-    for i in num:
-        if i > k:
-            return 0
+    if all( i > k for i in num):
+        return 0
     operationsCount = 0
     while len(num) >= 2:
         num.sort()

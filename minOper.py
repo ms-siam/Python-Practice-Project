@@ -16,7 +16,7 @@ class Solution:
             y = num.pop(0)
             
             newElem = x * 2 + y
-            num.append(newElem)
+            bisect.insort(num, newElem)
             operationsCount = operationsCount + 1
 
         if num[-1] < k:

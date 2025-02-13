@@ -15,5 +15,5 @@ def minOperations(num, k):
         del num[y.index()]
         newElem = x * 2 + y
         num.append(newElem)
-        
+        operationsCount = operationsCount + 1
 

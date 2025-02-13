@@ -6,11 +6,12 @@ k = 10
 import bisect
 class Solution:
     def minOperations(num, k):
+        num.sort()
         if all( i >= k for i in num):
             return 0
         operationsCount = 0
         while len(num) >= 2 and not all( i >= k for i in num):
-            num.sort()
+            
             x = num[0]
             y = num[1]
             del num[0:2]

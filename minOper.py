@@ -8,7 +8,7 @@ def minOperations(num, k):
     if all( i > k for i in num):
         return 0
     operationsCount = 0
-    while len(num) >= 2:
+    while len(num) >= 2 and if not all( i > k for i in num):
         num.sort()
         x = num[0]
         y = num[1]

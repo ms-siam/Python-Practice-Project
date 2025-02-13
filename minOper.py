@@ -21,3 +21,4 @@ def minOperations(num, k):
             break
     if num[-1] < k:
         return -1
+    return operationsCount

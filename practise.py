@@ -260,7 +260,7 @@ print(type(linkElem))
 
 linkElem.click()
 
-'''
+
 
 #FIlinig out and submitting forms
 
@@ -274,3 +274,7 @@ userElem.send_keys(pyip.inputStr('Type your username here'))
 passElem = browser.find_element('id', 'user_pass')
 passElem.send_keys(pyip.inputPassword('Type your password here'))
 passElem.submit()
+
+'''
+
+#Sending Special keys

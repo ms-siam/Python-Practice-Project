@@ -3,4 +3,4 @@
 
 num = [2, 4, 11, 10, 1, 3]
 k = 10
-
+def minOperations(num, k):

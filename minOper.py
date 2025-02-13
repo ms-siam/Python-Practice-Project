@@ -9,5 +9,5 @@ def minOperations(num, k):
             return 0
     while len(num) >= 2:
         x = min(num)
-        
+        del num[x.index()]
 

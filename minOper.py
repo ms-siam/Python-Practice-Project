@@ -3,6 +3,7 @@
 
 num = [2, 4, 11, 10, 1, 3]
 k = 10
+operationsCount = 0
 def minOperations(num, k):
     for i in num:
         if i > k:
@@ -14,3 +15,5 @@ def minOperations(num, k):
         del num[y.index()]
         newElem = x * 2 + y
         num.append(newElem)
+        
+

@@ -2,7 +2,7 @@
 # minOper.py- Minimum Operations to Exceed Threshold Value II
 
 num = [2, 4, 11, 10, 1, 3]
-k = 10
+k = 20
 operationsCount = 0
 def minOperations(num, k):
     for i in num:

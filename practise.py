@@ -280,7 +280,7 @@ passElem.submit()
 #Sending Special keys
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
+import time
 browser = webdriver.Firefox()
 browser.get('https://nostarch.com')
 htmlElem = browser.find_element('tag name', 'html')

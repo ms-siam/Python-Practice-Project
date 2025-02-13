@@ -3,12 +3,12 @@
 
 num = [2, 4, 11, 10, 1, 3]
 k = 20
-operationsCount = 0
+
 def minOperations(num, k):
     for i in num:
         if i > k:
             return 0
-    
+    operationsCount = 0
     while len(num) >= 2:
         num.sort()
         x = num[0]

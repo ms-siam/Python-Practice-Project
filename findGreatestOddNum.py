@@ -9,3 +9,5 @@ for i in range(len(num)-1,-1,-1):
         break 
     
 index = i + 1
+oddNum = num[:index]
+

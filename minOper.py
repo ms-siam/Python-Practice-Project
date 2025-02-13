@@ -8,12 +8,12 @@ def minOperations(num, k):
     for i in num:
         if i > k:
             break
-        while len(num) >= 2:
-            x = min(num)
-            del num[x.index()]
-            y = min(num)
-            del num[y.index()]
-            newElem = x * 2 + y
-            num.append(newElem)
-            operationsCount = operationsCount + 1
+    while len(num) >= 2:
+        x = min(num)
+        del num[x.index()]
+        y = min(num)
+        del num[y.index()]
+        newElem = x * 2 + y
+        num.append(newElem)
+        operationsCount = operationsCount + 1
 

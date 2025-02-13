@@ -10,4 +10,5 @@ def minOperations(num, k):
     while len(num) >= 2:
         x = min(num)
         del num[x.index()]
-
+        y = min(num)
+        

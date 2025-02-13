@@ -17,4 +17,6 @@ def minOperations(num, k):
         newElem = x * 2 + y
         num.append(newElem)
         operationsCount = operationsCount + 1
+        if newElem >= k:
+            break
 

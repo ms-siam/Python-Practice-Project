@@ -12,9 +12,9 @@ class Solution:
         operationsCount = 0
         while len(num) >= 2 and not all( i >= k for i in num):
             
-            x = num[0]
-            y = num[1]
-            del num[0:2]
+            x = num.pop(0)
+            y = num.pop(0)
+            
             newElem = x * 2 + y
             num.append(newElem)
             operationsCount = operationsCount + 1

@@ -8,5 +8,6 @@ def minOperations(num, k):
         if i > k:
             return 0
     while len(num) >= 2:
+        x = min(num)
         
 

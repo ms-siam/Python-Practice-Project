@@ -239,7 +239,7 @@ from selenium import webdriver
 browser = webdriver.Firefox()
 print(type(browser))
 browser.get('https://inventwithpython.com')
-'''
+
 from selenium import webdriver
 browser = webdriver.Firefox()
 browser.get('https://inventwithpython.com/')
@@ -248,3 +248,6 @@ try:
     print('Found <%s> element with that class name!' % (elem.tag_name))
 except:
     print('Was not able to find an element with that name')
+'''
+
+#Clicking the page

@@ -3,7 +3,7 @@
 
 num = [2,11,10,1,3]
 k = 10
-
+import bisect
 class Solution:
     def minOperations(num, k):
         if all( i >= k for i in num):

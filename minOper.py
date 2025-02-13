@@ -19,4 +19,5 @@ def minOperations(num, k):
         operationsCount = operationsCount + 1
         if newElem >= k:
             break
-
+    if num[-1] < k:
+        return -1

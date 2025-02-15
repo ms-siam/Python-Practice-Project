@@ -275,7 +275,6 @@ passElem = browser.find_element('id', 'user_pass')
 passElem.send_keys(pyip.inputPassword('Type your password here'))
 passElem.submit()
 
-'''
 
 #Sending Special keys
 from selenium import webdriver
@@ -288,3 +287,5 @@ htmlElem.send_keys(Keys.END)
 
 time.sleep(2)
 htmlElem.send_keys(Keys.HOME)
+'''
+

@@ -8,4 +8,4 @@ from sklearn.naive_bayes import GaussianNB
 clf = GaussianNB()
 #Fitting two arguments in classifier clf
 clf.fit(X, Y)
-
+print(clf.predict([[1, -1]]))

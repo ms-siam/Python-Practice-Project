@@ -17,9 +17,16 @@ print(sliceOfArr)
 # The changes also occured in original array
 print(arr)
 '''
+
+#Fancy Indexing
 import numpy as np
 
-arr2d = np.zeros((5,6))
+arr2d = np.zeros((10,10))
 print(arr2d)
 
 arr_length = arr2d.shape[1]
+
+for i in range(arr_length):
+    arr2d[i] = i
+
+print(arr2d[0,1,2])

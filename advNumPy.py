@@ -18,3 +18,4 @@ print(sliceOfArr)
 print(arr)
 
 arr2d = np.zeros((10,10))
+print(arr2d)

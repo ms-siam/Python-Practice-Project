@@ -14,3 +14,5 @@ print(sliceOfArr)
 #Broadcasting the sliceOfArr
 sliceOfArr[:] = 99
 print(sliceOfArr)
+# The changes also occured in original array
+print(arr)

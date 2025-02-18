@@ -16,3 +16,5 @@ sliceOfArr[:] = 99
 print(sliceOfArr)
 # The changes also occured in original array
 print(arr)
+
+arr2d = np.zeros((10,10))

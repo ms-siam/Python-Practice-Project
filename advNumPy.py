@@ -1,4 +1,4 @@
-# Broadcasting- 
+'''# Broadcasting- 
 import numpy as np
 arr = np.array([1,2,3,4,5,6,7,8,9,10])
 #Setting a value with index range(broadcasting)
@@ -16,6 +16,8 @@ sliceOfArr[:] = 99
 print(sliceOfArr)
 # The changes also occured in original array
 print(arr)
+'''
+import numpy as np
 
 arr2d = np.zeros((10,10))
 print(arr2d)

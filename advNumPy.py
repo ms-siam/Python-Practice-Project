@@ -11,3 +11,5 @@ print(arr)
 
 sliceOfArr = arr[6:11]
 print(sliceOfArr)
+#Broadcasting the sliceOfArr
+sliceOfArr[:] = 99

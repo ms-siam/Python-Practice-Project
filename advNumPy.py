@@ -19,5 +19,7 @@ print(arr)
 '''
 import numpy as np
 
-arr2d = np.zeros((10,10))
+arr2d = np.zeros((5,6))
 print(arr2d)
+
+arr_length = arr2d.shape[1]

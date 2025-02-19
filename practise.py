@@ -295,3 +295,5 @@ htmlElem.send_keys(Keys.HOME)
 Lm=300000
 #Interest over lm per month
 interest= 0.01
+# Deposit amount per month
+Dm=10000

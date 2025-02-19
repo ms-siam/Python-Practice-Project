@@ -332,7 +332,7 @@ Monthneed = 0
 # Total interest after new deposit amount
 Totalin= 0
 
-while rLm < 5000:
+while rLm > 15000:
     #Updating interest amount every month
     NewiPm= rLm * interest
     #Actual Deposit amount

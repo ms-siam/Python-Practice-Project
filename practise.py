@@ -290,3 +290,6 @@ htmlElem.send_keys(Keys.HOME)
 '''
 
 #Calculate total interest and months it would take of a loan until the loan is paid
+
+#Loan amount
+Lm=300000

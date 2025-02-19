@@ -315,3 +315,4 @@ while Lm > 5000:
 
 print(f"Total month: {month}")
 print(f"Total interest: {TotalInterest}")
+print(f"Loan amount remaining: {Lm}")

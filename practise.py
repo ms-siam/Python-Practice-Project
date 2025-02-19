@@ -312,3 +312,5 @@ while Lm > 5000:
     TotalInterest = TotalInterest + iPm
     # update total month after every iterate
     month = month + 1
+
+print(f"Total month: {month}")

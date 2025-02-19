@@ -314,3 +314,4 @@ while Lm > 5000:
     month = month + 1
 
 print(f"Total month: {month}")
+print(f"Total interest: {TotalInterest}")

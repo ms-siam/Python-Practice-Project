@@ -304,4 +304,5 @@ month=0
 
 # using while loop
 while Lm > 5000:
-    
+    #Actual Deposit amount
+    Adm= Dm - (Lm * interest)

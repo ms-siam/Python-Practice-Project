@@ -300,10 +300,10 @@ Dm=10000
 # Tracking total interest over the loan
 TotalInterest=0
 # Month it would take to finish the loan payment
-month=0
+month=1
 
 # using while loop
-while Lm > 5000:
+while month != 15:
     #Updating interest amount every month
     iPm= Lm * interest
     #Actual Deposit amount

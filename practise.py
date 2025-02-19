@@ -335,3 +335,5 @@ Totalin= 0
 while rLm < 5000:
     #Updating interest amount every month
     NewiPm= rLm * interest
+    #Actual Deposit amount
+    Adm= uDm - NewiPm

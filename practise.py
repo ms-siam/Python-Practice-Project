@@ -299,3 +299,5 @@ interest= 0.01
 Dm=10000
 # Tracking total interest over the loan
 TotalInterest=0
+# Month it would take to finish the loan payment
+month=0

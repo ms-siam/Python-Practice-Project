@@ -304,5 +304,8 @@ month=0
 
 # using while loop
 while Lm > 5000:
+    #Updating interest amount every month
+    iPm= Lm * interest
     #Actual Deposit amount
     Adm= Dm - (Lm * interest)
+    

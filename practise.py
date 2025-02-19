@@ -301,3 +301,7 @@ Dm=10000
 TotalInterest=0
 # Month it would take to finish the loan payment
 month=0
+
+# using while loop
+while Lm > 5000:
+    

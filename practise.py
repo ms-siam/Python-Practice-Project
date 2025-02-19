@@ -336,6 +336,8 @@ while rLm < 5000:
     #Updating interest amount every month
     NewiPm= rLm * interest
     #Actual Deposit amount
-    Adm= uDm - NewiPm
+    nAdm= uDm - NewiPm
     # Updating total interest amount every month
     Totalin = Totalin + NewiPm
+    #Update the new remaining loan amount after every iteration
+    rLm = rLm - nAdm

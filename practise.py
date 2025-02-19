@@ -321,7 +321,7 @@ print(f"Loan amount remaining: {Lm}")
 
 
 #Updated deposit amount
-uDm = 15000
+uDm = 20000
 
 #Remained loan amount
 rLm = Lm

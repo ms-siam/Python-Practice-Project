@@ -300,7 +300,7 @@ Dm=10000
 # Tracking total interest over the loan
 TotalInterest=0
 # Month it would take to finish the loan payment
-month=1
+month=0
 
 # using while loop
 while month != 15:
@@ -341,3 +341,5 @@ while rLm < 5000:
     Totalin = Totalin + NewiPm
     #Update the new remaining loan amount after every iteration
     rLm = rLm - nAdm
+    # update total month after every iterate
+    Monthneed = Monthneed + 1

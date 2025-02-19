@@ -343,3 +343,5 @@ while rLm < 5000:
     rLm = rLm - nAdm
     # update total month after every iterate
     Monthneed = Monthneed + 1
+
+print(f"Total month needed: {Monthneed}")

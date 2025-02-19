@@ -325,3 +325,8 @@ uDm = 15000
 
 #Remained loan amount
 rLm = Lm
+
+# Month needed to pay the loan
+Monthneed = 0
+
+

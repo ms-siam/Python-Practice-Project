@@ -293,3 +293,5 @@ htmlElem.send_keys(Keys.HOME)
 
 #Loan amount
 Lm=300000
+#Interest over lm per month
+interest= 0.01

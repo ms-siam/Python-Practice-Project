@@ -297,3 +297,5 @@ Lm=300000
 interest= 0.01
 # Deposit amount per month
 Dm=10000
+# Tracking total interest over the loan
+TotalInterest=0

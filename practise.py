@@ -310,3 +310,5 @@ while Lm > 5000:
     Adm= Dm - iPm
     # Updating total interest amount every month
     TotalInterest = TotalInterest + iPm
+    # update total month after every iterate
+    month = month + 1

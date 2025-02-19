@@ -308,4 +308,5 @@ while Lm > 5000:
     iPm= Lm * interest
     #Actual Deposit amount
     Adm= Dm - iPm
-    
+    # Updating total interest amount every month
+    TotalInterest = TotalInterest + iPm

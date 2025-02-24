@@ -348,3 +348,5 @@ print(f"Total month needed: {Monthneed}")
 print(f"Total interest need to be paid: {Totalin}")
 print(f"Loan amount remaining: {rLm}")
 
+
+

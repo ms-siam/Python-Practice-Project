@@ -23,3 +23,10 @@ NestedList = [[1,2,3], [4,5,6], [7,8,9]]
 
 FlattenList = [digit for row in NestedList for digit in row]
 print(FlattenList)
+
+#Problem 4: Dictionary Comprehension
+#Create a dictionary where keys are numbers 1-5 and values are their cubes.
+
+dict = {num: num**3 for num in range(1,6)}
+
+print(dict)

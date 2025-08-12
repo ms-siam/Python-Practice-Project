@@ -35,3 +35,7 @@ print(dict)
 #Problem 5: Complex Filtering
 #Given words = ["python", "is", "awesome", "and", "powerful"] , create a list of tuples containing (word, length)
 
+words = ["python", "is", "awesome", "and", "powerful"]
+
+list = [(w, len(w)) for w in words]
+print(list)

@@ -56,5 +56,10 @@ consonant = { letter for letter in "hello world programming" if letter not in ('
 print(consonant)
 
 #Problem 8: Higher-Order Function
-#Write a function apply_operation(func, numbers) function to each number, and returns the results.
+#Write a function apply_operation(func, numbers) that takes a function and a list of numbers, applies the function to each number, and returns the results.
 
+def apply_operation(func, numbers):
+    return [func(num) for num in numbers]
+
+squares = apply_operation(lambda x: x**2, [2, 8, 1, 0])
+print(squares)

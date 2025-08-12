@@ -18,3 +18,8 @@ print(CondEven)
 
 #Problem 3: Nested Structure Flattening
 #Flatten this 2D matrix using list comprehension: [[1,2,3], [4,5,6], [7,8,9]] Expected output: [1,2,3,4,5,6,7,8,9]
+
+NestedList = [[1,2,3], [4,5,6], [7,8,9]]
+
+FlattenList = [digit for row in NestedList for digit in row]
+print(FlattenList)

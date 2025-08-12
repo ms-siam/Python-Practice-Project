@@ -54,3 +54,7 @@ print(farenheits_temp)
 
 consonant = { letter for letter in "hello world programming" if letter not in ('aeiou ') }
 print(consonant)
+
+#Problem 8: Higher-Order Function
+#Write a function apply_operation(func, numbers) function to each number, and returns the results.
+

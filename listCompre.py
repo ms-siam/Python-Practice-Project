@@ -4,3 +4,6 @@
 square = [sq**2 for sq in range(1,11)]
 print(square)
 
+#Problem 2: Filtering with Conditions
+#Create a list of even numbers from 0-20 that are also divisible by 4.
+

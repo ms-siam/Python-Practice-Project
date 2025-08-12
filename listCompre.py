@@ -52,3 +52,5 @@ print(farenheits_temp)
 #Problem 7: Set Comprehension Challenge
 #From a string "hello world programming", create a set of unique consonants (non-vowel letters).
 
+consonant = { letter for letter in "hello world programming" if letter not in ('aeiou ') }
+print(consonant)

@@ -63,3 +63,11 @@ def apply_operation(func, numbers):
 
 squares = apply_operation(lambda x: x**2, [2, 8, 1, 0])
 print(squares)
+'''
+Problem 9: Flexible Arguments
+Create a function calculate(*args, **kwargs) that:
+•⁠  ⁠Accepts any number of numbers as positional arguments
+•⁠  ⁠Accepts an operation keyword argument ('sum', 'multiply', 'max', 'min')
+•⁠  ⁠Returns the result of the operation on the numbers
+'''
+

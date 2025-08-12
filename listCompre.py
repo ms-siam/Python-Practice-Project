@@ -39,3 +39,7 @@ words = ["python", "is", "awesome", "and", "powerful"]
 
 list = [(w, len(w)) for w in words]
 print(list)
+
+#Problem 6: Conditional Expression
+#Create a list comprehension that converts temperatures from Celsius to Fahrenheit, but only for
+#temperatures above 0°C. Input: celsius_temps = [-10, 0, 15, 25, 30, -5]

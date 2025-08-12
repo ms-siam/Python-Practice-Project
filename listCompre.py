@@ -48,3 +48,7 @@ celsius_temps = [-10, 0, 15, 25, 30, -5]
 
 farenheits_temp = [temp * (9/5) + 32 for temp in celsius_temps if temp > 0]
 print(farenheits_temp)
+
+#Problem 7: Set Comprehension Challenge
+#From a string "hello world programming", create a set of unique consonants (non-vowel letters).
+

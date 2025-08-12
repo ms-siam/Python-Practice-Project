@@ -30,3 +30,8 @@ print(FlattenList)
 dict = {num: num**3 for num in range(1,6)}
 
 print(dict)
+
+
+#Problem 5: Complex Filtering
+#Given words = ["python", "is", "awesome", "and", "powerful"] , create a list of tuples containing (word, length)
+

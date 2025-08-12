@@ -15,3 +15,6 @@ for i in range(21):
 CondEven = [even for even in numbers if even>0 and even%4 == 0]
 
 print(CondEven)
+
+#Problem 3: Nested Structure Flattening
+#Flatten this 2D matrix using list comprehension: [[1,2,3], [4,5,6], [7,8,9]] Expected output: [1,2,3,4,5,6,7,8,9]

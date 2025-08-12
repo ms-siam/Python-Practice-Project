@@ -43,3 +43,8 @@ print(list)
 #Problem 6: Conditional Expression
 #Create a list comprehension that converts temperatures from Celsius to Fahrenheit, but only for
 #temperatures above 0°C. Input: celsius_temps = [-10, 0, 15, 25, 30, -5]
+
+celsius_temps = [-10, 0, 15, 25, 30, -5]
+
+farenheits_temp = [temp * (9/5) + 32 for temp in celsius_temps if temp > 0]
+print(farenheits_temp)

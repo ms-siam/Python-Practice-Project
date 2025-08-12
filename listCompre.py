@@ -71,3 +71,15 @@ Create a function calculate(*args, **kwargs) that:
 •⁠  ⁠Returns the result of the operation on the numbers
 '''
 
+
+'''
+Problem 10: Closure Implementation
+Write a function factor.
+create_multiplier(factor) that returns a function which multiplies its input by the given
+'''
+
+'''
+Problem 12: Generator Function
+Create a generator function prime_generator(limit) that yields prime numbers up to the given limit.
+'''
+

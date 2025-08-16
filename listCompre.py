@@ -115,3 +115,13 @@ Box= rectangle(10, 5)
 print(Box)
 Box.is_square()
 Box.perimeter()
+
+
+'''
+Problem 15: Class with Validation Create a Temperature class that:
+•	Stores temperature in Celsius
+•	Has methods to convert to Fahrenheit and Kelvin
+•	Validates that temperature is above absolute zero (-273.15°C)
+•	Raises appropriate exceptions for invalid temperatures
+'''
+

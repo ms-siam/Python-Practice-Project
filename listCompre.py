@@ -83,3 +83,35 @@ Problem 12: Generator Function
 Create a generator function prime_generator(limit) that yields prime numbers up to the given limit.
 '''
 
+
+'''
+Problem 14: Basic Class Design
+Create a Rectangle class with:
+•	Constructor that takes width and height
+•	Methods: area() , perimeter() , is_square()
+•	String representation showing dimensions
+'''
+
+class rectangle:
+    def __init__(self, height, width):
+        self.height = height
+        self.width = width
+    
+    def area(self):
+        self.area = self.height * self.width
+        print(f'Area of a rectangle containg {self.height} height and {self.width} width is {self.area}.')
+
+    def perimeter(self):
+        self.perimeter = 2 * (self.height + self.width)
+        print(f'Perimeter of a rectangle containg {self.height} height and {self.width} width is {self.perimeter}.')
+
+    def is_square(self):
+        print(f'This rectangle is square: {self.height == self.width}')
+
+    def __str__(self):
+        return f"Rectangle(width={self.width}, height={self.height})"
+
+Box= rectangle(10, 5)
+print(Box)
+Box.is_square()
+Box.perimeter()
